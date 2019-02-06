@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Economica');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#bg {
+    position: fixed;
+    width:100%;
+    height:100%;    
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+/*---------- NAVIGATION BAR ------------------*/
+
+
+#navbar {
+    background-color: gray;
+    display: block;
+    position: fixed;
+    top: 50;
+    left: 10;
+    width: 17%;  
+   /* border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;*/
+    border: 3px black solid;
+    height: 80%;
+}
+
+#navbar-img {
+    height: 60px;
+    display: block;
+    margin:10px auto;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 50%;
+    box-shadow: -5px 5px 10px black;
+}
+
+#navbar a {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 15px;
+    margin: 20px auto;
+    background-color: white;
+    display: block;
+    width: 75%;
+    border-radius: 10px;
+    border: 5px solid black;
+    font-family: 'Economica', sans-serif;
+    text-shadow: 0px 0px 10px gray;
+    transform: rotate(-20deg);
+    box-shadow: -5px 5px 10px black;
+
+}
+#navbar p{
+    margin-top: 35px;
+}
+#navbar input {
+    width: 90%;
+    padding: 5px;
+    display: block;
+    border-radius: 5px;
+    border: 3px white solid;
+    margin: 15px auto;
+}
+
+#navbar a:link {
+    text-decoration: none;
+        text-shadow: 0px 0px 10px gray;
+
+}
+
+#navbar a:visited {
+    text-decoration: none;
+} 
+
+#navbar a:hover {
+    background-color: royalblue;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+
+}
+
+#navbar a:active {
+    
+}
+
+.sm-icons {
+    width: 80%;
+    padding: 5px;
+    background-color: white;
+    margin: -5 auto;
+    display: block;
+    border-radius: 5px;
+}
+
+#social-media {
+    background-color: white;
+    padding: 0 5px; 
+    color: gray;
+    border-radius: 5px;
+    width: 85%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#navbar p {
+    text-align: center;
+    font-size: 20px;
+    padding: 3px;
+    margin-bottom: -3px;
+}
+
+#navbar-holder {
+    background-color: royalblue;
+    padding: 10px;
+}
+
+#navbar-holder a {
+    padding: 3px 20px;
+    margin: 5px;
+    
+}
+
+#bottom-navbar a:link{
+    text-decoration: none;
+    color:white;
+    text-shadow: 0 0 10px white;
+}
+
+#bottom-navbar a:visited{
+    text-decoration: none;
+    color:black;
+
+
+}
+
+#bottom-navbar a:hover{
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    border-radius: 10px;
+    text-shadow: 0 0 10px royalblue;
+    
+}
+
+#bottom-navbar a:active {
+     color:black;
+   
+}
+
+.bottom-social {
+    width: 50%;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+
+
+/*---------------- LOGO -----------------------*/
+#logo-pic {
+    width: 40%;
+    display: block; 
+    margin: 0 auto;
+}
+
+
+/* -----------------SOCIAL MEDIA ----------------------*/
+
+
+
+
+/*---------------- BLOG EDITING -----------------------*/
+
+
+#the-blogs {
+    width: 75%;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    margin-left: 22%;
+    
+}
+
+.single-blog {
+    margin-bottom: 20px;
+    background-color:gray;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.title-author {
+    background-color: white;
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    color: black;
+}
+
+.blog-title {
+    color: black;
+    font-size: 50px;
+    font-family: 'Amatic SC', sans-serif; 
+    margin-bottom: -15px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.author-date {
+    
+    color:royalblue;
+    font-size: 18px;
+
+}
+
+.blog-content {
+    font-size: 20px;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Architects Daughter', cursive;
+
+    
+}
+
+#small-logo {
+    width: 150px;
+    display: inline;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+    display:block;
+    clear: both;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Economica', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    padding: 20px 0px;
+
+    
+}
+/*-- Keep all your "styling and designs" organized with comments! --*/
+
+/* ---------------  ABOUT ME PAGE ---------------------*/
+
+#authors {
+    margin-left: 22%;
+}
+
+#meet {
+    text-shadow: 5px 5px  20px black;
+    font-size: 55px;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+}
+
+.author-container {
+    background-color: gray;
+    font-family: arial, sans-serif;
+    height: 500px;
+   
+    
+}
+
+.name {
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    color: black;
+    background-color: white;
+    width: 50%;
+    text-align: center;
+}
+
+.authorandpic {
+    width: 90%;
+    margin-left: 15px;
+}
+
+.author-pic{
+    height: 300px;
+    display: inline;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.authorinfo {
+    float: right;
+    width: 60%;
+    overflow: hidden;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    padding: 12px;
+    /*background-color: royalblue;*/
+    border: 5px solid royalblue;
+    margin: 5px;
+}
+
+.author-container p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.author-container a {
+    color: black;
+    text-shadow: 0px 0px 4px white;
+    font-size: 1.25em;
+   
+}
+.author-container a:link, {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.author-container a: visited {
+    text-decoration: none;
+    color: black;
+}
+
+.author-container a:hover {
+    text-decoration: none;
+    background-color: royalblue;
+    color: white;
+}
+
+.author-contariner a:active {
+    text-decoration: none;
+    color: royalblue;
+}
+
+
+/*---------------   Contact Me        -------------------*/
+
+#everything {
+    width: 75%;
+    margin-left: 25%;
+    margin-bottom: 25px;
+    background-color:gray;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+#contact-intro {
+    font-family: 'Special Elite', 'arial', serif;
+    padding: 15px;
+    line-height: 125%;
+}
+
+#contact-intro h2 {
+    font-size: 40px;
+    text-shadow: 0px 0px 10px black;
+    padding: 15px;
+}
+
+fieldset {
+    margin-bottom: 25px;
+    font-family: 'Special Elite';
+    font-size: 14px;
+    border: 1px gray solid;
+    
+}
+
+fieldset form {
+    background-color: royalblue;
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin: 0 auto; 
+    width: 
+}
+
+fieldset form p {
+    margin: 0;
+    font-family: 'Special Elite';
+    font-size: 18px;
+    padding: 5px;
+}
+
+form input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.input {
+    width: 50%;
+}
+
+textarea {
+    width: 90%;
+    height: 300px;
+    resize: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    font-family: monospace;
+}
+
+#submit {
+    padding: 10px;
+    width: 20%;
+    background-color: gray;
+    color: white;
+    font-family: 'chiller', sans-serif;
+    font-size: 40px;
+    border: 3px black solid;
+}
+
+
+
+
+/*-------- Secrets of Fishing -----*/
+
+#everything-secret {
+    width: 73%;
+    margin-left: 25%;
+    margin-bottom: 25px;
+    background-color:gray;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+.instructions {
+    padding: 20px;
+    color: white;
+    background-color: royalblue;
+    margin: 20px 10px;
+    border-top: 5px solid white;
+    border-bottom: 10px dashed white;
+}
+
+.instructions h2 {
+    font-family: 'Economica';
+    color: black;
+    font-size: 40px;
+    text-shadow: 0px 0px 10px white;
+    margin: 0;
+}
+
+.instructions p {
+    font-family: 'Special Elite', 'arial', serif;
+    color: white;
+    font-size: 15px;
+    text-shadow: 0px 0px 5px black;
+    margin: 0;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.instructions img, iframe {
+    height: 20%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.instructions iframe {
+    height: 315px;
+    width: 560px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+.secret-title-dates {
+    border-bottom: 5px dotted black;
+    width: 90%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    text-shadow: 2px 2px 10px royalblue;
+}
+
+
+#secrets-navbar {
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px 0px;
+    width: 50%;
+
+}
+
+#secrets-navbar h1 {
+    color: gray;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    font-family: 'Economica', 'arial', serif;
+    font-size: 55px;
+    
+}
+
+#secrets-navbar a {
+    font-family: 'Special Elite', 'arial', serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+    color: gray;
+}
+
+
+#backToTop {
+    width: 6%;
+    position: fixed;
+    right:  0;
+    bottom: 500;
+    background-color: white;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+#backToTop p {
+    text-align: center;
+    
+    font-family: 'Amatic SC';
+    font-size: 20px;
+}
+
+#backToTop p a:hover, a:active, a:link, a:visited {
+    color: royalblue;
+    font-weight: bolder
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
