@@ -272,6 +272,22 @@ TRIPS
 .tripHeader {
     width: 100%;
 }
+.tripsHolder {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    
+}
+
+.dontknow {
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+
+.trip-selector {
+    padding-bottom: 40px;
+}
 
 #panfish,#trout, #salt, #carp {
     margin: 20px auto;
