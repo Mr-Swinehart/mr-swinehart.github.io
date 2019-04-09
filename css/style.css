@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 @import url('https://fonts.googleapis.com/css?family=Londrina+Sketch|Reenie+Beanie');
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Bahiana');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
 
 
 
@@ -153,6 +157,8 @@ CSS FOR BLOGS
 
 .blog-title {
     padding: 10px;
+    font-family: 'Bahiana', cursive;
+
     
 }
 
@@ -243,25 +249,31 @@ CSS FOR ABOUT US
     
 }
 .aboutUsContent {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1em; 
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em; 
     display: block;
     margin: 0 auto;
     width: 80%;
 }
 .aboutUsName {
-    font-family: 'Staatliches', cursive;
-    text-shadow: 3px 3px 8px black;
-    font-size: 2em;
+    font-family: 'Bahiana', cursive;
+    font-size: 2.5em;
     
 }
 .aboutUsTitle {
     color:black;
-    font-weight: bold;
+    font-family: 'Bahiana', cursive;
+    font-size: 2em;
+    
     
 }
+.align-bottom {
+    display: inline-block;
+    width: 50%;
+    margin: 25px 0;
+}
 .jobTitle {
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 1em;
    
 }
@@ -271,7 +283,7 @@ CSS FOR ABOUT US
 .aboutUsInfo {
     width: 90%;
     display:block;
-    margin: 10px auto;
+    margin: 30px auto;
 }
 .aboutUsPic {
     width: 100%;
