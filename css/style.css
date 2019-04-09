@@ -269,8 +269,8 @@ CSS FOR ABOUT US
 }
 .align-bottom {
     display: inline-block;
-    width: 50%;
-    margin: 25px 0;
+    width: 100%;
+    margin:  0;
 }
 .jobTitle {
     font-family: 'Quicksand', sans-serif;
