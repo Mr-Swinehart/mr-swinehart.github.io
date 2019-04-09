@@ -302,6 +302,13 @@ TRIPS
     font-size: 4em;
 }
 
+.btn-group {
+    width:80%;
+}
+.fish-btn {
+    margin-bottom: 10px;
+}
+
 .fish-info{
     color: black;
     padding-bottom: 15px;
@@ -326,6 +333,7 @@ TRIPS
 
 .trip-selector {
     padding-bottom: 40px;
+    
 }
 
 #panfish,#trout, #salt, #carp {
