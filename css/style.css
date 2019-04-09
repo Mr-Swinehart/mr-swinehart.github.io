@@ -61,6 +61,32 @@ i.fab {
     display: block;
     margin: 20px auto;
 }
+
+.footer-categories, .footer-cat-sections {
+    margin: 0;
+    
+}
+.footer-cat-sections a, .footer-categories a {
+    text-decoration: none;
+    color: slategray;
+}
+
+.footer-categories a:hover , .footer-cat-sections a:hover {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.copyrightInfo {
+    margin-top: 25px;
+}
+.footer-logo {
+    display: block;
+    margin: 10px auto;
+    width: 30%;
+}
+
+
+
 /*
 .backToTop {
     background-color: darksalmon;
@@ -218,7 +244,7 @@ CSS FOR ABOUT US
 }
 .aboutUsContent {
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.25em; 
+    font-size: 1em; 
     display: block;
     margin: 0 auto;
     width: 80%;
@@ -236,9 +262,8 @@ CSS FOR ABOUT US
 }
 .jobTitle {
     font-family: 'Fjalla One', sans-serif;
-    text-shadow: 0px 0px 10px gray;
     font-size: 1em;
-    color: black;
+   
 }
 .aboutUsNameAndJob {
     padding: 15px 5px;
@@ -267,6 +292,8 @@ TRIPS
 
 .fish-info{
     color: black;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .tripHeader {
@@ -314,7 +341,19 @@ TRIPS
 }
 
 
+/* ==========================================
 
+        CSS FOR BTN-GROUP
+
+===========================================*/
+
+.btn-group a {
+    text-shadow: 0 0 5px black;
+}
+
+#shopping-selector {
+    padding-bottom: 25px;
+}
 
 
 
