@@ -35,7 +35,7 @@ footer {
      
 }
 
-i.fab {
+nav i.fab {
     width:100%;
     display: inline;
     margin: 5%;
@@ -90,6 +90,14 @@ i.fab {
 }
 
 
+.navigation a {
+    padding: 10px 0px;
+}
+
+
+.navbar {
+    width:100%;
+}
 
 /*
 .backToTop {
@@ -116,22 +124,53 @@ i.fab {
 
 /* === ==========================================================
 
-CSS FOR LANDING PAGE
+CSS FOR INDEX PAGE
 
 ================================================================== */
 
-.navigation a {
-    padding: 10px 0px;
+.bg {
+    background: url(../images/forestHeader.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+.index-stuff {
+    background-color:rgba(	245, 255, 250, 0.6);
+    color: black;
+   
+}
+.index-info{
+    width:80%;
+    margin:0 auto;
+    display: block;
+}
+
+.index-btns {
+    font-size: 2em;
+    width:80%;
+    margin: 10px auto;
+    
+   
 }
 
 
-.navbar {
-    width:100%;
+
+.signature {
+    width: 40%
 }
 
-
-
-
+.index-social-holder {
+    margin-top: 0 auto;
+    width: 50%;
+    display: block;
+}
+.index-social {
+    padding: 0px 10px;
+    margin: 0 0 20px 0;
+    font-size: 1.5em;
+}
+.index-name {
+    margin: 0px;
+}
 
 /* === ==========================================================
 
@@ -142,28 +181,31 @@ CSS FOR BLOGS
 
 
 
-.allBlogs {
-    margin: 40px auto;
-    width: 80%;
-    display: block;
-    
-}
 
-.ind-blog {
-    width:80%;
-    display: block;
-    margin: 20px auto;
+
+.allBlogs {
+    
+    margin: 50px auto;    
 }
 
 .blog-title {
-    padding: 10px;
+    padding-top: 10px;
     font-family: 'Bahiana', cursive;
+    margin:0;
+    font-size: 3em;
 
     
 }
 
+.title-row {
+    background-color:#dd7e6bff;
+
+}
+
 p.author, p.date {
-    display: inline-block;   
+    display: inline-block; 
+    margin: 0;
+    
 }
 
 .script {
@@ -176,9 +218,25 @@ p.author, p.date {
     padding: 30px;
 }
 
+.blogLogo {
+    display:block;
+    width: 50px;
+    margin: 20px auto;
+}
 
+.social-sharing, .blog-ending .blog-social {
+    margin:0;
+}
 
+.blog-social {
+    padding: 0px 10px;
+    margin: 0;
+    font-size: 2em
+}
 
+.blog-social-container {
+    padding-bottom: 30px;
+}
 
 
 
@@ -302,16 +360,14 @@ TRIPS
     font-size: 4em;
 }
 
-.btn-group {
-    width:80%;
-}
+
 .fish-btn {
     margin-bottom: 10px;
 }
 
 .fish-info{
     color: black;
-    padding-bottom: 15px;
+    padding: 15px 0px;
     margin-bottom: 20px;
 }
 
@@ -333,6 +389,9 @@ TRIPS
 
 .trip-selector {
     padding-bottom: 40px;
+    margin: 0 auto;
+    display: block;
+    width:100%;
     
 }
 
@@ -358,21 +417,6 @@ TRIPS
     display:block;
     margin: 0 auto;
     
-}
-
-
-/* ==========================================
-
-        CSS FOR BTN-GROUP
-
-===========================================*/
-
-.btn-group a {
-    text-shadow: 0 0 5px black;
-}
-
-#shopping-selector {
-    padding-bottom: 25px;
 }
 
 
