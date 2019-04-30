@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ----    Add your Google Fonts above the rest of your CSS       ----------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Staatliches');
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
@@ -493,3 +494,465 @@ select{
 
 
 
+=======
+/* ----    Add your Google Fonts above the rest of your CSS       ----------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Londrina+Sketch|Reenie+Beanie');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Bahiana');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+
+
+
+
+
+
+
+
+/* ----    Keep your CSS organized with comments       ----------------------------==========================================================
+
+CSS COPIED TO EACH PAGE
+
+================================================================== */
+
+
+
+
+
+footer {
+    background-color: #2A2927;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width:100%;
+    padding: 20px;
+     
+}
+
+nav i.fab {
+    width:100%;
+    display: inline;
+    margin: 5%;
+    font-size: 2em;
+}
+
+
+.fa-facebook {
+    color: #3C5A99;
+   
+}
+
+.fa-twitter {
+    color: #0084b4;
+}
+
+.fa-instagram {
+    color:deeppink;
+}
+
+.fa-youtube {
+    color:red;
+}
+ 
+.logo {
+    width: 700px;
+    display: block;
+    margin: 20px auto;
+}
+
+.footer-categories, .footer-cat-sections {
+    margin: 0;
+    
+}
+.footer-cat-sections a, .footer-categories a {
+    text-decoration: none;
+    color: slategray;
+}
+
+.footer-categories a:hover , .footer-cat-sections a:hover {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.copyrightInfo {
+    margin-top: 25px;
+}
+.footer-logo {
+    display: block;
+    margin: 10px auto;
+    width: 30%;
+}
+
+
+.navigation a {
+    padding: 10px 0px;
+}
+
+
+.navbar {
+    width:100%;
+}
+
+/*
+.backToTop {
+    background-color: darksalmon;
+    width: 50px;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    position:fixed;
+ 
+    right: 15;
+    bottom:50;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.backToTop p {
+    text-decoration: none;
+    color: black;
+    
+}
+*/
+
+
+/* === ==========================================================
+
+CSS FOR INDEX PAGE
+
+================================================================== */
+
+.bg {
+    background: url(../images/forestHeader.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+.index-stuff {
+    background-color:rgba(	245, 255, 250, 0.6);
+    color: black;
+   
+}
+.index-info{
+    width:80%;
+    margin:0 auto;
+    display: block;
+}
+h1 .copyright {
+    display: inline;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.index-btns {
+    font-size: 2em;
+    width:80%;
+    margin: 5px auto;
+    
+   
+}
+
+
+
+.signature {
+    width: 40%
+}
+
+.index-social-holder {
+    margin-top: 0 auto;
+    width: 50%;
+    display: block;
+}
+.index-social {
+    padding: 0px 10px;
+    margin: 0 0 20px 0;
+    font-size: 1.5em;
+}
+.index-name {
+    margin: 0px;
+}
+
+/* === ==========================================================
+
+CSS FOR BLOGS
+
+================================================================== */
+
+
+
+
+
+
+.allBlogs {
+    
+    margin: 50px auto;    
+}
+
+.blog-title {
+    padding-top: 10px;
+    font-family: 'Bahiana', cursive;
+    margin:0;
+    font-size: 3em;
+
+    
+}
+
+.title-row {
+    background-color:#dd7e6bff;
+
+}
+
+p.author, p.date {
+    display: inline-block; 
+    margin: 0;
+    
+}
+
+.script {
+    font-weight: bold;
+}
+
+.blog-content p {
+    width: 100%;
+    display: block;
+    padding: 30px;
+}
+
+.blogLogo {
+    display:block;
+    width: 50px;
+    margin: 20px auto;
+}
+
+.social-sharing, .blog-ending .blog-social {
+    margin:0;
+}
+
+.blog-social {
+    padding: 0px 10px;
+    margin: 0;
+    font-size: 2em
+}
+
+.blog-social-container {
+    padding-bottom: 30px;
+}
+
+
+
+/*-===================================================================
+
+
+CSS FOR 404 PAGE
+
+========================================================================-*/
+
+.no-page {
+    font-family: 'Londrina Sketch', cursive;
+    font-size: 3em;
+    color: white;
+    padding-top: 50px;
+}
+.no-page-secondary {
+    font-family: 'Reenie Beanie', cursive;    
+    font-size: 2em;
+    color: white;
+}
+.four04 {
+    margin-top: 20px;
+}
+
+.gif404 {
+    width: 300px;
+    margin: 0 auto;
+    display:block;
+}
+
+.four04holder {
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+}
+.no-page-thirdary {
+    margin-top: 20px;
+    font-size: 1em;
+    color: white;
+    padding: 0px 20px;
+}
+
+footer.footer2{
+     background-color: #2A2927;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width:100%;
+    margin-top: 100px;
+}
+
+/*-===================================================================
+
+
+CSS FOR ABOUT US
+
+========================================================================-*/
+
+.about-us {
+    width: 90%;
+    margin:30px auto;
+    display:block;
+}
+.about-us-holder {
+    padding: 15px;
+    margin: 15px 0px;
+    
+}
+.aboutUsContent {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em; 
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+.aboutUsName {
+    font-family: 'Bahiana', cursive;
+    font-size: 2.5em;
+    
+}
+.aboutUsTitle {
+    color:black;
+    font-family: 'Bahiana', cursive;
+    font-size: 2em;
+    
+    
+}
+.align-bottom {
+    display: inline-block;
+    width: 100%;
+    margin:  0;
+}
+.jobTitle {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+   
+}
+.aboutUsNameAndJob {
+    padding: 15px 5px;
+}
+.aboutUsInfo {
+    width: 90%;
+    display:block;
+    margin: 0px auto 20px auto;
+}
+.aboutUsPic {
+    width: 100%;
+}
+
+
+
+/*===============================================================
+
+TRIPS
+
+==================================================================*/
+
+.page-title {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 4em;
+}
+
+
+.fish-btn {
+    margin-bottom: 10px;
+}
+
+.fish-info{
+    color: black;
+    padding: 15px 0px;
+    margin-bottom: 20px;
+}
+
+.tripHeader {
+    width: 100%;
+}
+.tripsHolder {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    
+}
+
+.dontknow {
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+
+.trip-selector {
+    padding-bottom: 40px;
+    margin: 0 auto;
+    display: block;
+    width:100%;
+    
+}
+
+#panfish,#trout, #salt, #carp {
+    margin: 20px auto;
+}
+.fishingLocations {
+    width: 80%;
+    margin: 15px;
+}
+.trip-deets2, .fishSpecies {
+    margin: 15px;
+    width: 80%;
+}
+.fish-pic {
+    width:75%;
+    display: block;
+    margin:30px auto;
+}
+
+.return-to-top {
+    width:100%;
+    display:block;
+    margin: 0 auto;
+    
+}
+
+
+
+
+
+/*===============================================================
+
+SHOP
+
+==================================================================*/
+
+.item-img {
+    width: 80%;
+}
+
+#numberOfMugs, #mugcolor, #mug-size {
+    margin: 10px auto;
+    width: 100%;
+}
+
+select{
+    
+   
+    
+}
+
+#mugs, #attire, #gear, #coffee {
+    margin: 30px auto;  
+}
+
+.purchaseButton {
+    margin-bottom: 10px;
+}
+>>>>>>> b1ca0b65c4c643d781d0f197abcb9154cac4e07f
