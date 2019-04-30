@@ -143,11 +143,18 @@ CSS FOR INDEX PAGE
     margin:0 auto;
     display: block;
 }
+h1 .copyright {
+    display: inline;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+}
 
 .index-btns {
     font-size: 2em;
     width:80%;
-    margin: 10px auto;
+    margin: 5px auto;
     
    
 }
@@ -341,7 +348,7 @@ CSS FOR ABOUT US
 .aboutUsInfo {
     width: 90%;
     display:block;
-    margin: 30px auto;
+    margin: 0px auto 20px auto;
 }
 .aboutUsPic {
     width: 100%;
@@ -418,6 +425,71 @@ TRIPS
     margin: 0 auto;
     
 }
+
+
+
+
+
+/*===============================================================
+
+SHOP
+
+==================================================================*/
+
+.item-img {
+    
+    max-height: 200px
+}
+
+#numberOfMugs, #mugcolor, #mug-size {
+    margin: 10px auto;
+    width: 100%;
+}
+
+select{
+    
+   width: 100%;
+    
+}
+
+#mugs, #attire, #gear, #coffee {
+    margin: 30px auto;  
+}
+.price {
+    margin: 0 auto;
+}
+.purchaseButton {
+    margin-bottom: 10px;
+}
+
+.order-row {
+    margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
