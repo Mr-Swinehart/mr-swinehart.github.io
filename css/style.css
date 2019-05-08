@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* ----    Add your Google Fonts above the rest of your CSS       ----------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Staatliches');
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
@@ -436,6 +436,20 @@ TRIPS
 SHOP
 
 ==================================================================*/
+.backToTop {
+    position:fixed;
+    width:50px;
+    height: 50px;
+    background: #dd7e6bff;
+    bottom:50%;
+    right:0;
+    box-shadow: 0px 0px 10px black;
+    z-index: 1;
+    font-size: 2em;
+    color:black;
+    border: 1px solid gray;
+}
+
 
 .item-img {
     
@@ -467,8 +481,10 @@ select{
     margin: 20px auto;
 }
 
-
-
+.shop-section {
+    margin: 50px auto;
+    border-top: 1px black solid;
+}
 
 
 
