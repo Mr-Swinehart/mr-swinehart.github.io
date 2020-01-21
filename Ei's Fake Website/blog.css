@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+   
+}
+
+body {
+    cursor: url(images/fish_skeleton.png), auto;
+}
+#logo {
+    width: 1000px;
+    margin: 80px auto 15px auto;
+    padding: 0;
+    
+    display: block;
+}
+
+#nav-container {
+    width: 100%;
+    height: 60px;
+    background: #ff9700;
+    margin: ;
+    font-size: 1em;
+    font-family: monospace;
+    text-align: center;
+    border: #333 5px solid;
+    position: fixed;
+    top:0;
+    
+}
+
+#nav-container ul {
+    padding 8px 0;
+    margin: 0;
+}
+
+
+#nav-container li {
+    display: inline;
+    padding: 5px;
+    margin: 0 15px 0 15px;
+    line-height: 60px;
+}
+
+#nav-container a{
+    text-decoration: none;
+    padding: 8px;
+    font-family: impact, arial, sans-serif;
+    font-size: 2em;
+}
+
+
+
+#nav-container a:link {
+    color: dodgerblue;
+    text-shadow: white 0 0 15px;
+
+}
+
+#nav-container a:visited {
+           color: dodgerblue;
+    text-shadow: white 0 0 15px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+}
+
+#nav-container a:hover {
+            color: white;
+    text-shadow: dodgerblue 5px 5px 15px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background: black;
+
+}
+
+#nav-container a:active {
+            color: dodgerblue;
+    text-shadow: white 0 0 15px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
+.section-title {
+    text-align: center;
+    width: 50%;
+    margin: 50px auto 15px auto;
+    font-size: 3em;
+    color: white;
+    text-shadow: dodgerblue 2px 2px 10px;
+}
+
+#blog-section {
+    background-color: #333;
+    width: 80%;
+    margin: 20px auto 50px auto;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.individual-blogs {
+    background-color: dodgerblue;
+    margin: 15px auto;
+    width: 90%;
+    padding: 10px;
+}
+
+.blog-title {
+    font-size: 2em;
+    font-family: monaco, monospace;
+    border-bottom: 6px dotted #FF9700;
+    width: 95%;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: black 4px 2px 4px;
+}
+
+.date-posted {
+    font-family: monaco, monospace;
+    font-size: 1.5em;
+    background-color: white; 
+    padding: 0 10px;
+    margin-bottom: 20px;
+    border-color: 	#FF9700;
+}
+
+date {
+    font-size: 1em;
+}
+
+.blog-content {
+    padding: 15px 15px 0 15px;
+    font-family: calibri, arial, sans-serif;
+    line-height: 1.5;
+}
+
+.blog-author {
+    font-family: freestyle script, sans-serif;
+    font-size: 2em;
+    color: #ff9700;
+    padding: 20px;
+    text-shadow: black 5px 5px 10px;
+}
+
+#about-me {
+    width: 90%;
+    margin: 150px auto 150px auto;
+    background-color: #333;
+    margin-top: 30px;
+}
+
+#about-me-title {
+    color: #333;
+    text-shadow: dodgerblue 5px 5px 10px;
+    font-size: 2em;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#eli-fish {
+    width: 360px;
+    float: right;
+    margin: 25px 15px 15px 15px;
+    border-radius: 10px;
+    border: ridge 15px white;
+}
+
+#about-me-content {
+    padding: 15px;
+}
+
+.about-me-sub {
+    color: #ff9700;
+    font-family: freestyle script, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #333;
+    background-color: dodgerblue;
+    width: 70%;
+    padding-left: 20px;
+    margin-top: 15px;
+     border-bottom: 6px dotted #FF9700;
+}
+
+#about-me-content p {
+    padding: 10px;
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: .9em;
+}
+
+
+#about-me-content em, #about-me-content strong {
+    
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 1em;
+}
+
+
+#contact-me {
+    margin: 0 auto;
+    background-color: dodgerblue;
+    margin-bottom: 80px;
+    padding-bottom: 50px;
+    width: 75%;
+    border: #ff9700 double 10px;
+    border-radius: 15px;
+ 
+}
+
+#contact-title {
+    text-shadow: black 5px 5px 10px;
+}
+
+#contact-legend {
+    font-family: freestyle script, arial, sans-serif;
+    font-size: 2em;
+    
+    font-weight: bold;
+    padding: 15px 15px 0px 15px;
+    background: #ff9700;
+}
+
+#contact-fieldset {
+    padding: 20px;
+    width: 600px;
+    margin: 0 auto;
+    background: #333;
+}
+
+#contact-me label {
+    display: block;
+    width: 75%;
+    background: #ff9700;
+    padding: 5px 0 5px 5px;
+    margin-top: 15px;
+    font-family: monospace;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    border: solid dodgerblue 3px;
+    border-bottom: none;
+    
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 76.75%;
+    padding: 5px 0 5px 5px;
+    font-family: monospace;
+    font-size: 1.25em;
+    border: solid dodgerblue 3px;
+    border-top: none;
+}
+
+input[type="radio"] {
+    padding-left: 10px;
+    font-family: monospace;
+    text-shadow: white 5px 5px 10px;
+    border: solid #333 3px;
+    border-top: none;       
+}
+
+#radio {
+    background: white;
+    width: 75%;
+    border: solid dodgerblue 3px;
+    border-top: none;
+    padding: 0 0 10px 5px;
+}
+
+.radio-text {
+    font-family: monospace;
+    padding-bottom: 5px;
+}
+
+textarea {
+    width: 76.75%;
+    height: 20%;
+    resize: none;
+    border-top: solid #333 3px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background: dodgerblue;
+    border: #ff9700 5px solid;
+    border-radius: 5px;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    color: white;
+    text-shadow: black 2px 2px 10px;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #ff9700;
+    color: white;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    text-shadow: black 3px 3px 5px;
+    margin-top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
