@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 @import url('https://fonts.googleapis.com/css?family=Bahiana');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
 
 
 
@@ -21,6 +22,12 @@
 CSS COPIED TO EACH PAGE
 
 ================================================================== */
+
+#index-title {
+    margin:20px;
+    font-family: 'Bowlby One SC', cursive;
+    letter-spacing: 4px;
+}
 
 .index-list {
     padding-top: 25px;
