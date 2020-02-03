@@ -33,8 +33,19 @@ CSS COPIED TO EACH PAGE
     padding-top: 25px;
     
 }
-.work {
-    padding: 0 20px;
+
+
+#about-me {
+    margin-top: 40px;
+    padding-top: 40px;
+    
+}
+
+#fam-pic {
+    width: 50%;
+    margin: 0;
+    padding:0;
+    float:right;
 }
 
 #signature {
