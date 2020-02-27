@@ -104,3 +104,10 @@ footer {
 .blog-border {
     border-bottom: 5px black solid;
 }
+#welcome {
+    padding-bottom: 20px;
+}
+
+.intro {
+    padding: 10px;
+}
