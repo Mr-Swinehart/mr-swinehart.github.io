@@ -63,6 +63,9 @@ footer {
     text-align: center;
     background: #974A0C;
     height: 40px;
+    position: relative;
+    left: 0; 
+    bottom: 0;
 }
 
 
