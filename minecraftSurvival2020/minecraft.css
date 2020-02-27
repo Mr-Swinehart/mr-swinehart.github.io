@@ -111,3 +111,8 @@ footer {
 .intro {
     padding: 10px;
 }
+
+.homepage-button p {
+    margin: 0;
+    padding: 0;
+}
