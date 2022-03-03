@@ -1,0 +1,431 @@
+/*-NAVBAR AND LOGO ---------------------------------------------*/
+.top-logo {
+	width: 300px;
+	margin: 80px 0px 20px;
+}
+
+nav {
+	background-color: #2d2c4f;
+}
+
+.navbar img {
+	margin-left: 30px;
+}
+
+.navbar .nav-link:hover{
+	background-color: #f3af19ff !important;
+	color: black !important;
+}
+
+.nav-link {
+	margin-left:20px;
+	padding: 0 30px;
+}
+
+button .fa-bars {
+	
+	color:white;
+}
+
+.active {
+	background-color: #f3af19ff;
+}
+.social {
+		font-size: 15px;
+		font-family: 'Black Han Sans', sans-serif;
+	}
+
+.instagram {
+	background-image: linear-gradient(to right, #e95950 , #8a3ab9);
+	/*background-color:#e95950;*/
+	color: #fbad50;
+}
+.twitter {
+	background-image: linear-gradient(to right, #1DA1F2 , white);
+
+	color:#1DA1F2;
+}
+.facebook {
+	background-image: linear-gradient(to right, dodgerblue , white);
+	
+	color: white;
+}
+
+.instagram i, .facebook i, .twitter i {
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+
+
+ul.dropdown-menu li.instagram a:hover {
+	color: #8a3ab9 !important;
+}
+ul.dropdown-menu li.facebook a:hover {
+	color: dodgerblue !important;
+}
+ul.dropdown-menu li.twitter a:hover {
+	color:#1DA1F2 !important;
+}
+
+#footer {
+	
+	position: relative;
+	width: 100%;
+	bottom: 0;
+	height: 100px;
+	margin-top: 40px;
+	background-color: #be83f9;
+
+}
+
+.copyright {
+		font-family: 'Black Han Sans', sans-serif;
+		font-size: 14px;
+		margin-top: 20px;
+		
+}
+
+
+
+
+/* -------- INDEX PAGE -----------------*/
+#home-body {
+	height: 100%;
+	background-color: #f3af19ff;
+}
+
+#left-home-img {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	
+	height: 50%;
+	margin-bottom: 0px;
+	z-index: -2;
+}
+#right-home-img {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	
+	height: 50%;
+	margin-bottom: 0px;
+	z-index: -2;
+}
+
+#FN-intro {
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 3em;
+}
+
+#FN-Intro-Content {
+	background-color:white;
+	padding: 25px;
+	color: #2a095f;
+}
+#FN-intro {
+	background-color:  #be83f9;
+	padding: 15px;
+}
+#FN-Intro-Content .btn-group {
+	width: 100%;
+}
+.FN-intro-paragraph {
+	color: black;
+}
+
+#FN-Intro-Content a:hover {
+	box-shadow: 10px 10px 20px black;
+	background-color: #be83f9 !important;
+	color: white !important;
+}
+
+/*-------------- ABOUT US -----------------*/
+.body-bg {
+	background-color: #f3af19ff;
+}
+#backToTop {
+	width: 60px;
+	background-color: #e25bff;
+	opacity:.5;
+	position: fixed;
+	right:0;
+	bottom: 100px;
+	border: white 2px solid;
+	border-radius:50%;
+	margin: 10px;
+	padding: 10px 10px;
+}
+#backToTop:hover {
+	opacity: 1;
+}
+
+#aboutUsDropdown {
+	width: 250px;
+	display:block;
+	margin: 0 auto;
+}
+
+
+#aboutUsDropdown .btn{
+	padding: 5px 30px;
+}
+
+.about-us-image {
+	width: 100%;
+	display:block;
+	border: 5px solid #2a095f;
+}
+
+
+.about-us-row {
+	padding: 15px;
+	margin-bottom: 25px;
+}
+
+.aboutUsName {
+	font-family: 'Black Han Sans', sans-serif;
+	color: #2a095f;
+	margin-top: 15px;
+}
+.gamerTag {
+	font-family:monospace;
+	font-size: 1.5em;
+	color: #2a095f;
+}
+
+.about-us-info {
+	color: #2a095f;
+}
+.buffer {
+	min-height: 50px;
+}
+.container {
+	margin-bottom: 50px;
+}
+
+
+.social-btn {
+	background-color: white !important;
+	
+	
+}
+
+.social-btn:hover {
+	background-color:dodgerblue !important;
+}
+
+
+.socdbtn i{
+	margin-right: 10px;
+	font-size: 20px;
+}
+div #team-holder {
+	background-color:#2a095f;
+	width: 80%;
+	display:block;
+	margin: 50px auto 0px;
+	padding: 20px 0px;
+}
+.sponsor-title {
+
+	font-family: 'Black Han Sans', sans-serif;
+	text-align:center;
+}
+
+
+.sponsor-img {
+	width: 50%;
+	display:block;
+	margin:0 auto;
+	
+}
+
+.img-holder {
+	padding: 30px 0 40px 0;
+	margin-top: 20px;
+	background-color:#b3b1d9;
+	
+}
+
+
+
+/*-------------- BLOG ---------------------------------------*/
+.blogTitle {
+	font-family: 'Black Han Sans', sans-serif;
+	color: #2a095f;
+	margin-top: 15px;
+}
+
+.blog-social-btn {
+	width:100%;
+}
+
+.individual-blogs {
+	padding: 40px;
+	color: #2a095f;
+	border: solid #be83f9 4px;
+	margin-bottom: 50px;
+	border-radius: 25px;
+}
+
+.author-name {
+	display: inline-block;
+}
+.author-img {
+	width: 100px;
+	border-radius:25%;
+	display:inline-block;
+}
+.tag-img {
+	margin:20px auto;
+	height:100px;
+	display: block;
+	
+	
+}
+
+.blog-img {
+	width:60%;
+	float: right;
+	margin: 15px 0px 15px 20px;
+	border: solid black 3px;
+	box-shadow: 0px 0px 15px black;
+	
+}
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:80%;
+		margin: 20px auto;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+iframe {
+	widthi 100%;
+	height: 100%;
+	display: block;
+	margin: 20px auto;
+}
+
+figcaption {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	text-align:center;
+}
+
+
+
+/* ===================================== shop ===================================*/
+.accordion-button {
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 50px;
+	color: #2a095f !important;
+	padding: 15px;
+}
+
+
+.product {
+	display:block !important;
+	background-color: #be83f9 !important;
+	color: white; 
+	padding: 20px;
+	width: 90%;
+	margin: 0 auto;
+	height: 100%;;
+}
+
+.product-title {
+	color:  #2d2c4f;
+	text-align:center;	
+}
+
+.purchasecontent {
+	
+	background-color: white; 
+	padding: 10px;
+}
+
+.purchasecontent input, .purchasecontent btn {
+	
+	position: relative;
+	right: 0;
+}
+
+.purchasecontent input{
+	
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 5px;
+	border: none;
+	background-color: lightgray;
+	width: 100%;	
+}
+
+.purchasecontent input:hover{
+	background-color: #f3af19ff !important;
+	
+}
+
+.buy-btn {
+	width: 100%;
+	margin-top: 10px;
+}
+
+#tShirt, #sweatshirt {
+	margin-top: 25px;
+	width: 100%;
+	background-color: #f3af19ff;
+	padding: 20px;
+}
+
+.more-content {
+	display:block;
+	margin:25px auto;
+width: 70%;
+	background-color: lightgray;
+	color: white;
+	padding: 15px 0px;
+	text-shadow: 1px 1px 3px black;
+}
+
+.upgrades {
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+	
+}
+.btn-block {
+	width: 100%;
+	
+}
+.btn-holder {
+	width: 80%;
+	margin: 20px auto;
+	display: block;
+}
+
+.upgrade-img {
+	width:15%;
+	float: right;
+	margin: 20px;
+}
+
+#gif {
+	border-radius: 50%;
+}
