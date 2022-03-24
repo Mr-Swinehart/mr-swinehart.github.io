@@ -1,0 +1,75 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+/*----- FONT FAMILY IMPORTS -----*/
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
+
+
+
+/* -------- FONT FAMILIES USED ----------
+font-family: 'Graduate', cursive;
+
+
+
+
+*/
+
+
+/* ---------------- Navbar -----------*/
+
+.navbar {
+    background-color: #006ED0;
+    
+   
+}
+
+.active {
+    background-color: white;
+    color: #006ED0 !important;
+}
+.navbar-brand img{
+    height: 25px;
+}
+a.nav-link {
+     color: white;
+    border-radius: 5px;;
+}
+
+a.nav-link:hover {
+    background-color: black !important; 
+    color: white;
+    
+}
+.nav-item {
+    margin-right: 25px;
+}
+button.navbar-toggler {
+    
+    color: white !important;
+}
+
+
+
+#home-mascot {
+    margin-top: 50px;
+    border-bottom: solid 25px black;
+    padding-bottom: 50px;
+}
+
+.page-title-holder {
+    margin-top: 50px;
+    width: 100%;
+    border-bottom: solid 10px black ;
+}
+
+.page-title {
+    font-family: 'Graduate', cursive;
+    font-weight: 900;
+    font-size: 4em;
+}
+
+
+
+
+
+
