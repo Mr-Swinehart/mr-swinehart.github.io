@@ -26,13 +26,14 @@ font-family: 'Graduate', cursive;
 .active {
     background-color: white;
     color: #006ED0 !important;
+
 }
 .navbar-brand img{
     height: 25px;
 }
 a.nav-link {
-     color: white;
-    border-radius: 5px;;
+    color: white;
+    text-align: center;
 }
 
 a.nav-link:hover {
@@ -43,9 +44,14 @@ a.nav-link:hover {
 .nav-item {
     margin-right: 25px;
 }
-button.navbar-toggler {
+button  {
     
-    color: white !important;
+    
+    margin-bottom: 10px;
+}
+
+.navbar-toggler-icon {
+    color:black !important;
 }
 
 
@@ -65,7 +71,7 @@ button.navbar-toggler {
 .page-title {
     font-family: 'Graduate', cursive;
     font-weight: 900;
-    font-size: 4em;
+    font-size: 50px;
 }
 
 
