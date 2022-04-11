@@ -58,7 +58,6 @@ button  {
 
 #home-mascot {
     margin-top: 50px;
-    border-bottom: solid 25px black;
     padding-bottom: 50px;
 }
 
@@ -74,7 +73,43 @@ button  {
     font-size: 50px;
 }
 
+#great-question {
+    border-bottom: 4px black solid;
+    margin-bottom: 20px;
+}
 
+.index-intro {
+    padding: 15px;
+}
+
+#home-mascot .row {
+    margin-bottom: 25px;
+}
+
+#home-mascot .row .col-md-4 {
+    padding: 10px;
+    background-color: #9CFC6C;
+    border-bottom: 4px black solid;
+    margin-top: 15px;
+
+}
+
+footer {
+    padding-top: 30px;
+    background-color: #006ED0;
+    position: relative;
+    color: #9CFC6C;
+}
+.footer-text {
+    display: block;
+    width: 75%;
+    margin: 20px auto 0 auto;
+    padding-bottom: 10px;
+    font-family: 'Graduate', cursive;
+    border-top: black solid 5px;
+    text-align: center;
+    
+}
 
 
 
