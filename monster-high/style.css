@@ -10,7 +10,8 @@
 font-family: 'Graduate', cursive;
 font-family: 'Sigmar One', cursive;
 
-
+blue: #006ED0 
+green: #9CFC6C
 
 */
 
@@ -28,9 +29,11 @@ font-family: 'Sigmar One', cursive;
     color: #006ED0 !important;
 
 }
+
 .navbar-brand img{
     height: 25px;
 }
+
 a.nav-link {
     color: white;
     text-align: center;
@@ -41,27 +44,17 @@ a.nav-link:hover {
     color: white;
     
 }
+
 .nav-item {
     margin-right: 25px;
 }
+
 button  {
-    
-    
-    margin-bottom: 10px;
+   margin-bottom: 10px;
 }
 
 .navbar-toggler-icon {
     color:black !important;
-}
-
-
-.page-container {
-    position: relative;
-}
-
-#home-mascot {
-    margin-top: 50px;
-    padding-bottom: 50px;
 }
 
 .page-title-holder {
@@ -70,8 +63,44 @@ button  {
     border-bottom: solid 10px black ;
 }
 
+/* ---- END OF NAVBAR AND PAGE TITLE --------*/
+
+/*------FOOTER ------------------*/
+footer {
+    padding-top: 30px;
+    background-color: #006ED0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: #9CFC6C;
+}
+.footer-text {
+    display: block;
+    width: 75%;
+    margin: 20px auto 0 auto;
+    padding-bottom: 10px;
+    font-family: 'Graduate', cursive;
+    border-top: black solid 5px;
+    text-align: center;
+    border-bottom: black solid 5px;
+    position: static;;
+    bottom: 0;
+}
+
+/*------END OF FOOTER ------------------*/
+
+/*--------- HOME ------------ -----------*/
+#main-content {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+#m-high-info {
+    margin-bottom: 20px;
+}
+
 #header-info {
-    text-align: justify
+    text-align: justify;
 }
 #header-img {
     border: black solid 4px;
@@ -136,11 +165,11 @@ button  {
     padding: 15px;
 }
 
-#home-mascot .row {
+#main-content.row {
     margin-bottom: 25px;
 }
 
-#home-mascot .row .col-md-4 {
+#main-content .row .col-md-4 {
     padding: 10px;
     background-color: #9CFC6C;
     border-bottom: 4px black solid;
@@ -148,32 +177,9 @@ button  {
 
 }
 
-footer {
-    padding-top: 30px;
-    background-color: #006ED0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    color: #9CFC6C;
-}
-.footer-text {
-    display: block;
-    width: 75%;
-    margin: 20px auto 0 auto;
-    padding-bottom: 10px;
-    font-family: 'Graduate', cursive;
-    border-top: black solid 5px;
-    text-align: center;
-    border-bottom: black solid 5px;
-    position: static;;
-    bottom: 0;
-}
 
-footer.footer-404 {
-    
-    position: absolute;
-    bottom: 0;
-}
+
+
 /* ---------- 404 page ------------- */
 #no-page-title {
     font-size: 100px;
@@ -182,7 +188,7 @@ footer.footer-404 {
     font-family: chiller, cursive;  
     text-align: center;
     margin: 40px auto;
-
+    
 }
 
 #img-404 {
@@ -190,6 +196,113 @@ footer.footer-404 {
     margin: 10px auto;
     display: block;
 }
+
+
+/*---------------- ACADEMICS ------------------*/
+
+.btn {
+    
+    background-color: #006ED0 !important;
+    display: block;
+    margin: 0 auto;
+}
+#dropdownMenuButton1 {
+    
+    background-color: #006ED0 !important;
+    color: #9CFC6C;
+    margin: 20px auto;
+    display: block;
+}
+
+#content-holder .dropdown-item {
+    width: 100%;
+}
+
+
+.content-header {
+    color: #006ED0;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    margin: 40px 0px 0px;
+    padding: 25px;
+    background-color: #242124;
+}
+
+.content {
+    border-left: 4px solid black;
+    padding: 15px 10px;
+    background-color: gray;
+    margin: 0px auto 30px; 
+    
+}
+
+.content-holder {
+    background-color: white;
+}
+
+.content-holder h3{
+    font-family: 'Sigmar One', cursive;
+    font-size: 30px;
+}
+
+#faculty-img-col {
+    border-right: black solid 4px;
+    
+}
+.content-holder .row {
+    border-bottom: black solid 1px;''
+}
+.content-holder .col-8 {
+    background-color: gray;
+    padding: 10px;
+    text-align: justify;
+}
+
+.staff-email {
+    padding: 20px 0px 0px;
+}
+
+.staff-email p {
+    margin: 0;
+}
+
+.staff-info {
+    margin-bottom: 20px;
+}
+
+
+#chevron {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    text-align: center;
+    padding: 10px;
+    background-color: #006ED0 ;
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
