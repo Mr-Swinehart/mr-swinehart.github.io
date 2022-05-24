@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto+Slab:wght@200&display=swap');
+
+
+
+body{
+    background:url(Images/cement3.jpg);
+}
+
+#gavel{
+    position:relative;
+    top: 50px;
+    width:60%;
+    border: black dashed 3px;
+    left: -10px;
+}
+
+img{
+    position: relative;
+    width: 200px;
+    margin: auto;
+    left:30px;
+    bottom:25px;
+}
+
+#home_button{
+    width: 10px;
+}
+
+
+h2{
+font-family: Roboto Mono;
+padding-bottom: 40px;
+ padding-left: 25px;
+padding-right: 25px;
+    width:80%;
+    
+}
+
+h1{
+    font-family: Roboto Mono;
+    padding-bottom: 40px;
+
+}
+
+nav{
+    font-family: Roboto Mono;
+    padding-bottom: 20px;
+    word-spacing: inherit;
+     border: black dashed 3px;
+    background-color: orange;
+}
+
+h3{
+
+    font-family: Roboto Mono;
+    background-color:darkorange;
+    border: black dashed 3px;
+    width: 90%;
+    padding:20px;
+    border-radius: 00%
+}
+
+h4{
+    font-family: Roboto Mono;    
+    text-align: center;
+    position: relative;
+    bottom:50px;
+}
+
+h5{
+    font-family: Roboto Mono;
+    background-color:darkorange;
+    border: black dashed 3px;
+    width: 60%;
+    padding:20px;
+    
+}
+
+#saul{
+    border-radius:100%;
+    border: black dashed 3px;
+    width:200px;
+    height: 200px
+}
+
+#person_name{
+    float:right;
+    width:50%;
+    text-align: center;
+    font-family: Roboto Mono;
+    position: relative;
+
+}
+
+
+#faq{
+        font-family: Roboto Mono;
+    background-color:darkorange;
+    border: black dashed 3px;
+    width: 8-0%;
+    padding:1px;
+}
+
+#submit{
+     font-family: Roboto Mono;
+    background-color:darkorange;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 50px;
+    border-radius: 20%;
+}
+
+
+label{
+    font-family: Roboto Mono;
+    font-size: 20px
+}
+
+
+
+
+h10{
+    position: relative;
+    bottom: 40px;
+}
+
+
+
+#shop_img{
+    width: 40%;
+    border: black dashed 3px;
+    position: relative;
+    left:-1px;
+    border-radius: 50%
+    
+}
+
+#faq_top{
+    position: relative;
+    margin: 20px;
+    Top:1px;
+}
+
+
+.questions{
+    font-size: 25px;
+    width:80%;
+}
+
+.blog_text{
+    font-size: 15px;
+    line-height: 30px;
+    border-radius: 50px
+}
+
+#person_text{
+    position: relative;
+    top: 10px;
+    margin: 10px;
+    font-family: Roboto Mono;
+    background-color:darkorange;
+    border: black dashed 3px;
+    width: 90%;
+    padding:20px;
+    border-radius: 10%
+}
+
+hr{
+    color: black
+}
+
+footer{
+    position: relative;
+    float: right;
+    right: 20px;
+    font-family: Roboto Mono;
+}
+
+#submit_text{
+    width: 80%;
+    position: relative;
+    line-height: 50px;
+    margin-top: 100px
+}
+
+.questions{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.gallery_img{
+    border:navy ridge 8px;
+    background-color: darkorange;
+    width:70% ;
+    padding:10px;
+}
+
+
+.pic_const{
+    width:70%;
+      border: black dashed 3px;
+}

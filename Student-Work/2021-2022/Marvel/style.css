@@ -1,0 +1,353 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+#navbar-marvelous-logo {
+    height: 50px;
+}
+.nav-item .nav-link {
+    color:black !important;
+}
+
+.bi-list {
+    color: black !important;
+}
+
+#navbar {
+    background-color: orange !important;
+    
+}
+
+#title {
+    text-align: center;
+    margin-top: 40px;
+    font-family: fantasy
+}
+
+#intro {
+    text-align: center;
+    margin-top: 130px;
+    background-color: orange;
+    font-family: fantasy;
+    padding-top: 10px;
+    padding-bottom: 20px;
+   
+}
+
+
+#check-out-our-website {
+    text-align: center;
+    margin-top: 80px;
+    color: black;
+    font-family: fantasy;
+}
+
+#home-buttons {
+    background-color: orange;
+    align-items: center
+}
+
+.home-footer {
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: black 5px solid;
+    border-bottom: black 5px solid;
+}
+
+#lo-ki {
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+    margin-top: 50px;
+    margin-bottom: 100px
+}
+
+.date {
+    margin-bottom: 10px;
+}
+    
+.individual-blog {
+    margin-top: 50px;
+    border: black 5px solid;
+    padding: 20px;
+    color: black;
+    background-color: white;
+    font-family: fantasy;
+    text-decoration: underline
+}
+
+
+.blog-author {
+    color: white;
+    font-family: monospace;
+    border-top: black 5px solid;
+    border-bottom: black 5px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.about-the-team {
+    text-align: center;
+    margin-top: 50px;
+    font-family: fantasy;
+}
+
+#teamwork {
+    color: black;
+    background-color: orange;
+    font-family: fantasy;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 80px;
+    text-align: center;
+    padding: 20px;
+}
+
+#avenger-pic {
+    float: right;
+}
+
+#martin-goodman {
+    margin-top: 100px;
+    padding-left: 30px;
+}
+
+.goodman-paragraph {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+#jack-kirby {
+    margin-top: 100px;
+    padding-left: 30px;
+}
+
+.kirby-paragraph {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+#stan-lee {
+    margin-top: 100px;
+    padding-left: 30px;
+}
+
+.lee-paragraph {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+#me {
+    margin-top: 100px;
+    padding-left: 30px;
+}
+
+.my-paragraph {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+#blog-footer {
+    text-align: center;
+}
+
+.the-404-error {
+    text-align: center;
+    color: white;
+    margin-top: 75px;
+    padding: 5px;
+    font-family: fantasy;
+    background-color: orange;
+    color: black;
+}
+
+.troubleshoot {
+    text-align: center;
+    margin-top: 200px;
+    padding: 5px;
+    font-family: fantasy;
+}
+
+.back-to-home {
+    text-align: center;
+    margin-top: 150px;
+    background-color: white;
+    font-family: fantasy;
+    padding: 10px;
+    
+}
+
+#shop-intro {
+    text-align: center;
+    margin-top: 90px;
+    background-color: orange;
+    color: black;
+    padding: 5px;
+    font-family: fantasy;
+}
+
+.shop-title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-family: fantasy;
+    font-size: 30px;
+    
+}
+
+.item {
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border: black 5px solid;
+    width: 80%;
+}
+
+.iron-man-suit {
+    width: 170px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.shop-item-info {
+    font-family: fantasy;
+    
+}
+
+.captain-america-shield {
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.thor-hammer {
+    width: 160px;
+    margin: 10px;
+}
+
+.web-shooter {
+    width: 200px;
+}
+
+.bow-and-arrow-set {
+    width: 170px;
+}
+
+.black-panther-suit {
+    width: 190px;
+}
+
+.bucky-arm {
+    padding: 5px;
+    width: 200px;
+}
+
+.tesseract {
+    width: 180px;
+}
+
+.infinity-gauntlet {
+    width: 100px;
+}
+
+.character-wiki-title-info {
+    color: black;
+    background-color: orange;
+    text-align: center; 
+    font-family: fantasy;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.character-wiki-title {
+    text-align: center;
+    margin-top: 70px;
+    font-family: fantasy;
+}
+
+.avengers-title {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 35px;
+    border-bottom: white 5px solid;
+}
+
+.character-info {
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: center;
+}
+
+.powers {
+    font-family: fantasy;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.character-pic {
+   width: 20px;
+}
+
+.gotg-title {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 35px;
+    border-bottom: white 5px solid;
+}
+
+.xmen-title {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 35px;
+    border-bottom: white 5px solid;
+}
+
+.other-title {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 35px;
+    border-bottom: white 5px solid;
+}
+
+#johnny-storm {
+    width: 140px;
+}
+
+#pic-of-me {
+    width: 150px;
+}
+
+#me {
+    width: 230px;
+}
+
+.submission-form {
+    background-color: orange;
+    color: black;
+    font-family: fantasy;
+    text-align: center;
+}

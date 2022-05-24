@@ -3,6 +3,7 @@
 /*----- FONT FAMILY IMPORTS -----*/
 @import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap');
 
 
 
@@ -63,16 +64,62 @@ button  {
     border-bottom: solid 10px black ;
 }
 
+.bi-instagram {
+    text-align: center;
+    font-size: 1.25em;
+    color: #8a3ab9;
+    margin-right: 5px;
+    
+}
+.bi-twitter {
+    text-align: center;
+    font-size: 1.25em;
+    color: #00acee ;
+    margin-right: 5px;
+
+}
+.bi-facebook {
+    text-align: center;
+    font-size: 1.25em;
+    color: #3b5998;
+    margin-right: 5px;
+}
+.bi-youtube {
+    text-align: center;
+    font-size: 1.25em;
+    color: #FF0000;
+    margin-right: 5px;
+}
+.bi-tiktok {
+    text-align: center;
+    font-size: 1.25em;
+    color:#ff0050;
+    margin-right: 5px;
+}
+
+.bi-list {
+    font-size: 30px
+}
+
+
+/* ----------------redo this-------------------*/
+a #tiktok:hover {
+    background-color: #ff0050 !important;
+    color: white !important;
+}
+
+
 /* ---- END OF NAVBAR AND PAGE TITLE --------*/
 
 /*------FOOTER ------------------*/
 footer {
     padding-top: 30px;
+    padding-bottom: 40px;
     background-color: #006ED0;
     position: relative;
     bottom: 0;
     width: 100%;
-    color: #9CFC6C;
+    background-color: dimgray;
 }
 .footer-text {
     display: block;
@@ -129,7 +176,7 @@ footer {
     font-size: 50px;
     font-weight: bolder;
     color: #006ED0;
-    padding: 20px 0; 
+    padding: 20px; 
     background-color: black;
 }
 
@@ -175,6 +222,16 @@ footer {
     border-bottom: 4px black solid;
     margin-top: 15px;
 
+}
+
+#home-athletics {
+    border-top: black solid 5px;
+    margin: 20px 0;
+}
+
+.home-athletics {
+    padding: 0 20px;
+    margin: 20px;
 }
 
 
@@ -288,14 +345,82 @@ footer {
     
 }
 
+.staff-email strong {
+    border-bottom: solid white 3px;
+
+}
+
+.staff-email p {
+    font-size: 18px;
+    color: white;
+    text-align: right; 
+    
+}
+
+.staff-email i {
+    padding-right: 10px;
+}
+
+.individual-blog {
+    padding: 15px;
+    background-color: #9CFC6C;
+    margin: 30px 0px;
+    border-bottom: solid black 5px;
+}
+
+.blog-title {
+    font-family: 'Graduate', cursive;
+    font-size: 2.2em;
+}
+
+.blog-title, .author-and-date {
+    display: inline;
+}
 
 
+.author, .date {
+    display: block;
+    font-style: italic;
+}
+
+.blog-content {
+    margin-top: 20px;
+    font-family: monospace;
+    border-top: solid black 2px;
+    padding-top:15px;
+    font-size: 1.15em
+}
+
+.endOfBlog h4 {
+    font-family: 'Ingrid Darling', cursive;
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: #006ED0 ;
+    width: 50%;
+    border-bottom: 1px solid black;
+    padding-bottom: -1px;
+}
+
+.endOfBlog h5 {
+    font-family: 'Graduate', cursive;    
+    font-size: 1em;
+    color: #006ED0 ;
+}
 
 
+.footer-icons i{
+    margin: 0px 20px;
+    padding-top: 10px;
+}
 
-
-
-
+#footer-logo {
+    width: 30%;
+    background-color: white;
+    padding: 15px;
+    display: block;
+    margin: 10px auto 0px;
+    border-radius: 5px
+}
 
 
 

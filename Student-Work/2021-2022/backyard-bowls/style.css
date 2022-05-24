@@ -1,0 +1,416 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+/*---font families used---
+font-family: 'Hubballi', cursive;
+font-family: 'Smooch Sans', sans-serif;
+font-family: 'Orelega One', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Smooch Sans', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Kanit', sans-serif;
+*/
+
+.navbar-brand{
+    font-size:100px;
+}
+
+#navbar{
+    background-color:floralwhite;
+    margin-top:40px;
+
+}
+
+a.nav-link{
+    font-size:20px;
+    color:cornflowerblue;
+    font-family: 'Hubballi', cursive;
+}
+
+#navbar-logo {
+    position: fixed;
+    width: 140px;
+    top: 0;
+    left:0;
+}
+
+#title1{
+    font-style:oblique;
+    text-align:center;
+    font-size:30px;
+    color:cornflowerblue;
+
+}
+
+
+
+body{
+    background-color:blanchedalmond!important;
+   
+}
+
+
+
+img.person-picture {
+    width: 25%;
+    
+}
+ 
+#bothPeopleGolly {
+    margin: 20px auto;
+    width: 50%;
+    display: block;
+}
+
+
+.about-us-holder{
+    margin: 20px;
+}
+
+#names{
+    font-family: 'Kanit', sans-serif;
+    color:hotpink;
+    text-align:center;
+    margin-top:20px;
+    
+}
+
+#about-names{
+    background-color:floralwhite;
+    font-family: 'Bebas Neue', cursive;
+    font-size:1.25em;
+    color:black;
+    border-radius:10px;
+    padding: 10px;
+    text-align: justify;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    
+   
+}
+
+.contact{
+    font-size:20px;
+    font-family: 'Orelega One', cursive;
+    background-color:hotpink;
+    text-align:center;
+    color:floralwhite;
+    
+}
+
+.insta{
+    text-align: center;
+    display: inline;
+    background-color:floralwhite;
+    
+}
+
+
+
+.about {
+    display: inline;
+    background-color:floralwhite;
+    border-radius:5px
+}
+
+.insta-row {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#insta-holder {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+}
+.lorem-ipsum{
+    font-size:20px;
+   font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+#head{
+    font-family: 'Roboto Mono', monospace;
+    color:hotpink;
+    font-size:30px;.
+    text-align:center;
+        
+}
+#logo {
+    display:block;
+    margin:auto;
+    width:120px       
+    
+}
+
+#blog{
+    font-size:30px;
+    color:hotpink;
+    font-family: 'Kanit', sans-serif;
+    text-align:center;
+    
+   
+}
+
+.words{
+    font-size:20px;
+    font-family: 'Bebas Neue', cursive;
+    background-color:floralwhite;
+    border-radius:10px;
+    
+}
+
+.img-holder{
+    
+    margin-top: 50px;
+}
+
+#person-image{
+   margin: 0 auto;
+    width:50%;
+    display: block;
+
+    
+}
+
+
+
+.us{
+   margin:0 auto; 
+}
+
+#slogan{
+    display: inline;
+    width: 100%;
+    text-align: center;
+    
+}
+
+#search-button{
+    color:cornflowerblue;
+    background-color:floralwhite;
+    font-family: 'Hubballi', cursive;
+    font-size:20px
+}
+
+
+#navbar-main{
+    color:cornflowerblue;
+    font-family: 'Hubballi', cursive;
+    font-size:25px;
+}
+
+#menu{
+font-size:30px;
+color:hotpink;
+ font-family: 'Kanit', sans-serif;
+text-align:left;
+    
+}
+
+#sections{
+    background-color:black;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size:20px;
+    color:floralwhite;
+    border-radius:10px;
+    text-align:center;
+}
+
+.happy-bowl{
+    
+}
+
+.menu-pics {
+    
+    box-shadow: 5px 5px 10px black;
+}
+
+
+#our-shop-name{
+    font-family: 'Kanit', sans-serif;
+    color:hotpink;
+    text-align:center
+}
+
+#our-shop{
+    background-color:floralwhite;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size:25px;
+    color:black;
+    border-radius:10px;
+    text-align:center;
+
+
+}
+
+.both-of-us{
+    width:50%;
+    margin:0 auto;
+    display:block;  
+}
+#poke-bowl{
+    
+       font-family: 'Kanit', sans-serif;
+    color:hotpink;
+    text-align:center;
+    margin-top:20px;
+}
+
+.bowls{
+       background-color:floralwhite;
+    font-family: 'Bebas Neue', cursive;
+    font-size:1.25em;
+    color:black;
+    border-radius:10px;
+    
+    
+}
+
+.ingredients{
+    font-size:25px;
+    color:black;
+}
+.base{
+    font-size:20px;
+    font-family: 'Bebas Neue', cursive;
+}
+.protein{
+        font-size:20px;
+    font-family: 'Bebas Neue', cursive;
+}
+.mix-ins{
+        font-size:20px;
+    font-family: 'Bebas Neue', cursive;
+}
+.sauce{
+        font-size:20px;
+    font-family: 'Bebas Neue', cursive;
+}
+.price{
+        text-align:center;
+        font-size:24px;
+    font-family: 'Bebas Neue', cursive;
+    color:hotpink;
+}
+
+.blogs{
+       font-family: 'Kanit', sans-serif;
+    color:hotpink;
+    text-align:left;
+    margin-top:20px;
+}
+
+#custom{
+  font-size:30px;
+color:hotpink;
+ font-family: 'Kanit', sans-serif;
+text-align:left;
+      
+}
+
+#poke{
+    font-size:25px;
+    color:hotpink;
+    background-color: black;
+    border-radius:10px;
+    text-align: center;
+   font-family: 'Orelega One', cursive;
+}
+#acai{
+     font-size:20px;
+    color:floralwhite;
+    background-color: black;
+    border-radius:10px;
+    text-align: center;
+    font-family: 'Orelega One', cursive;
+}
+
+#yours{
+    font-size:20px;
+    color:floralwhite;
+    background-color:black;
+    text-align:center;
+    font-family: 'Hubballi', cursive;
+    border-radius:10px;
+}
+.custombase{
+    font-family: 'Bebas Neue', cursive;
+    font-size:20px;
+    border-radius:10px;
+    background-color: hotpink;
+    color:floralwhite;
+}
+
+.customprotein{
+     font-family: 'Bebas Neue', cursive;
+    font-size:20px;
+    border-radius:10px;
+    background-color: hotpink;
+    color:floralwhite;
+}
+
+.custommixins{
+       font-family: 'Bebas Neue', cursive;
+    font-size:20px;
+    border-radius:10px;
+    background-color: hotpink;
+    color:floralwhite;
+}
+
+.customsauces{
+     font-family: 'Bebas Neue', cursive;
+    font-size:20px;
+    border-radius:10px;
+    background-color: hotpink;
+    color:floralwhite;   
+    
+}
+
+.type{
+    text-align:center;
+     width:50%;
+    margin:0 auto;
+    display:block;  
+}
+
+.footer{
+   font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    background-color:floralwhite;
+    border-radius: 10px
+}
+
+#socials{
+    color:black;
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+

@@ -1,0 +1,449 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+/* Fonts I've Used
+
+font-family: 'BhuTuka Expanded One', cursive;
+
+
+*/
+body { background-color:darkslategray !important  }
+.fa-twitter {
+
+}
+
+
+
+
+     
+}
+
+#bot{
+    
+    font-size:250px;
+}
+
+#qr{
+    font-size:250px;
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+p.pos_right {
+    position: relative;
+    left: 20px;
+}
+
+p.pos_right {
+    position: relative;
+    left: 20px;
+}
+#p1{
+    font-family: monospace;
+color: black;
+    font-size: 
+        
+}
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+}
+
+#square{
+    position:relative;
+}
+
+#btn{
+    width:180px;
+    height:60px;
+    font-size:30px;
+    font-family:fantasy;
+    background-color:yellow;
+    border-style:outset;
+    border-width:6px;
+    display: block;
+    margin: 10px auto;
+    border-color:darkred;
+    
+    
+}
+
+
+
+
+
+
+
+
+#About-Us{ 
+    float:left;
+    position:relative;
+    left: 100px;
+
+
+
+    }
+
+#div1{
+   float:left;
+    color:
+    
+    
+    top:150px;
+}
+
+#title{
+    color:yellow;
+    font-family:monospace
+}
+
+.shop-holder {
+    color:yellow;
+    font-family: monospace;
+    border: solid black 10px;
+    border-color:black;
+    border-width:10px;
+    padding: 15px;
+    background-color:skyblue;
+    border-radius: 20px;
+   text-align: justify;
+}
+
+
+#desc1{
+    float:right;
+    
+    color:yellow;
+    font-family: monospace;
+    border-color:black;
+    border-width:10px;
+    position:relative;
+    background-color:cadetblue;
+    border-bottom-right-radius: 50px;
+    border-radius: 20px;
+    border-style:solid;
+    margin-left:120px
+}
+
+#desc2{
+    float:right;
+    margin-top:90px;
+    margin-left:120px;
+    color:yellow;
+    font-family:monospace;
+    border-color:red;
+    border:10px;
+    position:relative;
+    background-color:cadetblue;
+border-style:ridge;
+    
+    
+}
+
+#desc{
+    
+    color:yellow;
+    font-family: monospace;
+    border-color:black;
+    border-width:10px;
+    position:relative;
+    background-color:;
+    border-bottom-right-radius: 50px;
+    border-radius: 20px;
+    border-style:solid;
+    margin:15px
+    
+    
+}
+
+
+#desc4{float:right;
+    
+    color:yellow;
+    font-family: monospace;
+    border-color:black;
+    border-width:10px;
+    position:relative;
+    background-color:cadetblue;
+    border-bottom-right-radius: 50px;
+    border-radius: 20px;
+    border-style:solid;
+    margin:15px;
+    
+    
+}
+
+
+
+
+
+
+
+
+#desc3{float:right;
+    
+    color:yellow;
+    font-family: monospace;
+    border-color:BLACK;
+    border-width:10px;
+    position:relative;
+    background-color:cadetblue;
+    border-bottom-right-radius: 50px;
+    border-radius: 20px;
+    border-style:solid;
+    margin:15px;
+    float:right;
+    width:400px
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+    
+    
+}
+
+
+
+    
+    
+    
+}
+
+
+
+
+
+#LOGO{
+    position:relative;
+    float:inherit;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+    
+    
+.image-fluid{
+    margin-top:80px;
+    width:250px;
+    border-style:inset;
+    border-width:8px;
+    border-bottom-style: ridge;
+    border-top-right-radius: 25px;
+    border-top-left-radius:35px;
+    position:relative;
+        
+}
+
+#divy{
+    background-color:
+}
+
+
+.batarang-png{
+    border-style:solid;
+    border-color:black;
+    border-bottom-left-radius: 125px;
+    border-top-right-radius: 135px;
+    width:400px;
+    background-color:dimgrey;
+    float:left;
+     
+    
+}
+
+
+
+.square{
+    width:300px;
+    font-family:cursive;
+    background-color:black;
+    color:yellow;
+    margin:50px;
+    font-size: 20px;
+}
+
+
+#images{
+    border-style:solid;
+    border-color:black;
+    border-width:10px;
+    background-color:darkred;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 55px;
+    
+    
+}
+
+#images2{border-style:solid;
+    border-color:black;
+    border-width:10px;
+    background-color:yellow;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 55px;
+    }
+#images3{border-style:solid;
+    border-color:black;
+    border-width:10px;
+    background-color:darkblue;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 55px;
+    }
+
+
+
+
+
+
+
+
+#batfacts{
+    border-color:black;
+    border-width: 10px;
+    border-style:solid;
+    margin-left:265px;
+    margin-right:265px;
+    padding-bottom:9px;
+    background-color:yellow;
+    border-bottom-left-radius:45px;
+    border-bottom-right-radius: 45px;
+    border-top-right-radius: 45px;
+}
+
+
+
+
+
+.batarang-pg{
+    border-style:solid;
+    border-color:black;
+    border-bottom-left-radius: 125px;
+    border-top-right-radius: 135px;
+    width:400px;
+    background-color:dimgrey;
+     
+    
+}
+
+
+.row{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

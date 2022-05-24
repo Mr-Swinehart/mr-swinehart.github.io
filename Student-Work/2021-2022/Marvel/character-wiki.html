@@ -1,0 +1,433 @@
+<!DOCUTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Marvelous</title>
+
+		<!-- Connect External CSS Sheet --->
+		<link rel="stylesheet" href="style.css">
+
+		<!--- Bootstrap --->
+		<!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+		<!--- Font Awesome --->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+		<!------ DO NOT ABOVE BELOW THIS LINE ------------------------ ---------->
+
+		<!------ FONTS ------------------------ -------------------------------- ---------->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="container-fluid text-light bg-danger">
+
+    <!----------------------Navbar----------------------------->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-light" id="navbar">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="images/Isaac%20Schafferman%20-%20Rough%20Draft%20of%20Logo%20and%20Name%20.png" id="navbar-marvelous-logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>    
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="shop.html">Shop</a>
+        </li>
+   <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="character-wiki.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <u>Character Wiki</u>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#avengers-section">Avengers</a></li>
+            <li><a class="dropdown-item" href="#gotg-section">Guardians of the Galaxy</a></li>
+            <li><a class="dropdown-item" href="#xmen-section">X-Men</a></li>
+            <li><a class="dropdown-item" href="#other-section">Others</a></li>
+          </ul>
+        </li>
+        </ul>
+        </div>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+</nav>
+    <!--------------------End of navbar-------------------------->
+    <!--------------------Start of actual website---------------->
+    <div class="character-page container">
+    <div class="character-wiki-title"><h1><u>Character Wiki</u></h1></div>
+    <div class="character-wiki-title-info"><p>This is the heart of our website. Here, you will find important information about all your favorite heroes and heroines. Come take a look!</p></div>
+    <!------------------------------Avengers Section--------------------------->
+        <!--------------Iron Man---------->
+        <div id="avengers-section">
+            <div class="avengers-title">The Avengers</div><br>
+            <div class="avengers-roster">
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/iron-man-pic.jpg"><br>
+                    <p class="powers">Powers: Smart<br>
+                        With Suit: Superhuman strength, durability, flight, variety of weapons</p></div>
+                    <div class="col-sm-6 character-info"><u>Iron Man</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!-------------------------Captain America------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/captain-america-pic.jpg"><br>
+                    <p class="powers">Powers: Superhuman agility, stamina, durability, reflexes, strength</p></div>
+                    <div class="col-sm-6 character-info"><u>Captain America</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!-------------------------Thor------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/thor-pic.jpg"><br>
+                    <p class="powers">Powers: Superhuman strength, speed, durability, speed, disease immunity, ability to harness lightning</p></div>
+                    <div class="col-sm-6 character-info"><u>Thor</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!-------------------------Hulk------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/hulk-pic.jpg"><br>
+                    <p class="powers">Powers: Incredible superhuman strength, durability, healing factor</p></div>
+                    <div class="col-sm-6 character-info"><u>Hulk</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!-------------------------Spider Man------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/spider-man.jpg"><br>
+                    <p class="powers">Powers: Superhuman Strength, speed, reflexes, durability, healing factor, heightened senses, wallcrawling</p></div>
+                    <div class="col-sm-6 character-info"><u>Spider Man</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!-------------------------Vision------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/vision.jpg"><br>
+                    <p class="powers">Powers: Superhuman intelligence, strength, speed, senses, density control, flight, regeneration, solar energy projection, holographic disguise, technopathy</p></div>
+                    <div class="col-sm-6 character-info"><u>Vision</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!-------------------------Scarlet Witch------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/scarlet-witch.jpg"><br>
+                    <p class="powers">Powers: Telekinesis, energy manipulation, forms of neuroelectric interfacing</p></div>
+                    <div class="col-sm-6 character-info"><u>Scarlet Witch</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!-------------------------Quicksilver------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/quicksilver.jpg"><br>
+                    <p class="powers">Powers: Superhuman speed</p></div>
+                    <div class="col-sm-6 character-info"><u>Quicksilver</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!-------------------------Doctor Strange------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/doctor-strange.jpg"><br>
+                    <p class="powers">Powers: Ability to conjure multiple myriad spells</p></div>
+                    <div class="col-sm-6 character-info"><u>Doctor Strange</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!-------------------------Bucky------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/bucky%20-%20Copy.jpg"><br>
+                    <p class="powers">Powers: Master of hand-to-hand combat, infiltration, espionage, marksmanship, degree of superhuman strength (Cybernetic arm contains EMP generator and holographic camouflage unit</p></div>
+                    <div class="col-sm-6 character-info"><u>James Buchanan "Bucky" Barnes</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!-------------------------War Machine------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/war-machine.jpg"><br>
+                    <p class="powers">Powers: Experienced Marine<br>
+                        With Suit: Superhuman strength, speed, durability, flight, energy repulsor, variety of weapons</p></div>
+                    <div class="col-sm-6 character-info"><u>War Machine</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!-------------------------Falcon------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/falcon.jpg"><br>
+                    <p class="powers">Powers: Skilled hand-to-hand combatant<br>
+                        With Suit: Ability to fly</p></div>
+                    <div class="col-sm-6 character-info"><u>Falcon</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!-------------------------Hawkeye------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/hawkeye.jpg"><br>
+                    <p class="powers">Powers: Expert hand-to-hand combatant, perfect marksmanship</p></div>
+                    <div class="col-sm-6 character-info"><u>Hawkeye</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!-------------------------Black Widow------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/black-widow.jpg"><br>
+                    <p class="powers">Powers: Master of espionage, infiltration, subterfuge, martial arts</p></div>
+                    <div class="col-sm-6 character-info"><u>Black Widow</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+        <!----------------------Guardians of the Galaxy section----------------->
+        <div id="gotg-section">
+            <div class="gotg-title">Guardians of the Galaxy</div><br>
+            <div class="gotg-roster">
+                <!-------------------------Star Lord------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/star-lord.jpg"><br>
+                    <p class="powers">Powers: Human half: Great musical taste<br>
+                        Celestial half: Ability to survive in space, fly faster than the speed of light, and generate a personal force field</p></div>
+                    <div class="col-sm-6 character-info"><u>Star Lord</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!-------------------------Gamora------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/gamora.jpg"><br>
+                    <p class="powers">Powers: Superhuman strength, agility, healing factor</p></div>
+                    <div class="col-sm-6 character-info"><u>Gamora</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!-------------------------Drax------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/drax.jpg"><br>
+                    <p class="powers">Powers: Superhuman strength and durability</p></div>
+                    <div class="col-sm-6 character-info"><u>Drax</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!-------------------------Rocket------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/rocket-raccoon.jpg"><br>
+                    <p class="powers">Powers: Enhanced speed, acute sense of smell, sight, hearing, touch</p></div>
+                    <div class="col-sm-6 character-info"><u>Rocket Raccoon</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!-------------------------Groot------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/groot.jpg"><br>
+                    <p class="powers">Powers: Invulerability to most projectiles, psychokinesis, limb regeneration</p></div>
+                    <div class="col-sm-6 character-info"><u>Groot</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!-------------------------Mantis------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/mantis.jpg"><br>
+                    <p class="powers">Powers: Complete control over body, peak human agility, ability to heal others through force of will, telepathy, ability sense other's emotion through psychic vibrations</p></div>
+                    <div class="col-sm-6 character-info"><u>Mantis</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!-------------------------Nebula------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/nebula.jpg"><br>
+                    <p class="powers">Powers: Superhuman strength, agility, durability, regeneration</p></div>
+                    <div class="col-sm-6 character-info"><u>Nebula</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <!-----------------------X-Men section--------------------------------->
+        <div id="xmen-section">
+            <div class="xmen-title">X-Men</div><br>
+            <div class="xmen-roster">
+                <!---------------------------Wolverine------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/wolverine.jpg"><br>
+                    <p class="powers">Powers: Superhuman strength, reflexes, senses, tracking abilities, healing factor that also slows aging</p></div>
+                    <div class="col-sm-6 character-info"><u>Wolverine</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!---------------------------Professor X--------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/professor-x.jpg"><br>
+                    <p class="powers">Powers: Extremely powerful telepathy</p></div>
+                    <div class="col-sm-6 character-info"><u>Charles Xavier</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!---------------------------Mystique--------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/mystique.jpg"><br>
+                    <p class="powers">Powers: Shapeshifter</p></div>
+                    <div class="col-sm-6 character-info"><u>Mystique</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!---------------------------Cyclops--------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/cyclops.jpg"><br>
+                    <p class="powers">Powers: Ability to emit powerful beams of energy from his eyes</p></div>
+                    <div class="col-sm-6 character-info"><u>Cyclops</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!---------------------------Psylocke--------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/psylocke.jpg"><br>
+                    <p class="powers">Powers: Ability to hide and teleport through shadows</p></div>
+                    <div class="col-sm-6 character-info"><u>Psylocke</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!---------------------------Storm--------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/storm.jpg"><br>
+                    <p class="powers">Powers: Ability to manipulate weather patterns, atmospheric pressure control, temperature modification, flight, lightning manipulation, lightning immunity, limited immunity to extreme heat and cold temperatures</p></div>
+                    <div class="col-sm-6 character-info"><u>Storm </u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!---------------------------Cable--------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/cable.jpg"><br>
+                    <p class="powers">Powers: Ability to read minds, move objects and people using his mind</p></div>
+                    <div class="col-sm-6 character-info"><u>Cable </u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!---------------------------Colossus--------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/colossus.jpg"><br>
+                    <p class="powers">Powers: Ability to transform his entire body into steel</p></div>
+                    <div class="col-sm-6 character-info"><u>Colossus</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!---------------------------Deadpool--------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/deadpool.jpg"><br>
+                    <p class="powers">Powers: Accelerated healing factor</p></div>
+                    <div class="col-sm-6 character-info"><u>Deadpool</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!---------------------------Magneto--------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/magneto.jpg"><br>
+                    <p class="powers">Powers: Ability to manipulate all forms of magnetism</p></div>
+                    <div class="col-sm-6 character-info"><u>Magneto</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!---------------------------Jean Grey--------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/jean-grey.jpg"><br>
+                    <p class="powers">Powers: Telepathic and telekinetic powers</p></div>
+                    <div class="col-sm-6 character-info"><u>Jean Grey</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+            </div>
+            <br>
+            <br>
+        <!-----------------------Others section-------------------------------->
+            <div id="other-section">
+            <div class="other-title">Others</div><br>
+            <div class="other-roster">
+                <!---------------------------Black Panther--------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/black-panther.jpg"><br>
+                    <p class="powers">Powers: Superhumanly acute senses, strength, speed, agility, stamina, durability, healing, reflexes</p></div>
+                    <div class="col-sm-6 character-info"><u>Black Panther</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!---------------------------Ant Man--------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/ant-man.jpg"><br>
+                    <p class="powers">Powers: Ability to shrink or grow himself and others to different sizes and then return to normal</p></div>
+                    <div class="col-sm-6 character-info"><u>Ant Man</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!---------------------------Wasp--------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/wasp.jpg"><br>
+                    <p class="powers">Powers: Ability to shrink and grow to different sizes, fly, fire bioelectric energy blasts</p></div>
+                    <div class="col-sm-6 character-info"><u>Wasp</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!---------------------------Captain Marvel--------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/captain-marvel.jpg"><br>
+                    <p class="powers">Powers: Superhuman strength, stamina, agility, durability, flight, immunity to toxins and poisons</p></div>
+                    <div class="col-sm-6 character-info"><u>Captain Marvel</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!---------------------------Reed Richards--------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/reed-richards.jpg"><br>
+                    <p class="powers">Powers: Ability to change entire body to a malleable state at will</p></div>
+                    <div class="col-sm-6 character-info"><u>Reed Richards</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!---------------------------Susan Storm--------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/susan-storm.jpg"><br>
+                    <p class="powers">Powers: Invisibility and ability to create force fields</p></div>
+                    <div class="col-sm-6 character-info"><u>Susan Storm</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!---------------------------Johnny Storm--------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img id="johnny-storm" src="images/johnny-storm.jpg"><br>
+                    <p class="powers">Powers: Ability to control heat energy and the physical ability to transform his entire body into a fiery state</p></div>
+                    <div class="col-sm-6 character-info"><u>Johnny Storm</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!---------------------------Thing--------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/the-thing.jpg"><br>
+                    <p class="powers">Powers: Superhuman strength, endurance, durability</p></div>
+                    <div class="col-sm-6 character-info"><u>Ben Grimm</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+                <hr>
+                <br>
+                <!---------------------------Moon Knight--------------------->
+                <div class="row">
+                    <div class="col-sm-6 character-pic"><img src="images/moon-knight.jpg"><br>
+                    <p class="powers">Powers: Enhanced strength during full moons, prophetic visions and dreams, ability to drain another person's life energies through physical contact</p></div>
+                    <div class="col-sm-6 character-info"><u>Moon Knight</u><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mollis nisi. Cras gravida blandit leo, eget imperdiet neque sodales eu. Nulla est purus, gravida non ipsum quis, blandit interdum est. Morbi fermentum finibus eros, et aliquam nibh ornare vitae. Maecenas eleifend vehicula dolor, vel laoreet erat faucibus at.</div>
+                </div>
+            </div>
+                <br>
+                <br>
+                <br>
+                <footer class="home-footer container"><u>Marvelous Most Rights Reserved</u></footer>
+    <br>
+    <!-- JavaScript Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>

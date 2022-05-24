@@ -1,0 +1,436 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css")
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Lora:ital@1&family=Raleway:ital,wght@1,200&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Orbitron:wght@500;600;800&family=Russo+One&family=Staatliches&display=swap');
+@import url('http://fonts.cdnfonts.com/css/komika-axis');
+
+/*
+
+font-family: 'Komika Axis', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Russo One', sans-serif;
+font-family: 'Staatliches', cursive;
+font-family: 'Lora', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Creepster', cursive;
+font-family: 'Anton', sans-serif;
+
+*/
+
+.center{
+    display: block;
+    margin: 10px auto;
+    width: 20%;
+        
+        
+}
+
+#search-bar{
+    color:crimson;
+}
+
+body{
+    background: linear-gradient(180deg, rgba(0,0,0,1) 4%, rgba(61,61,69,1) 59%, rgba(152,157,157,1) 99%)!important;
+}
+
+#navbox1{
+    border-color:aqua;
+    color:red
+}
+
+#navbox2{
+    color:red;
+}
+
+#navbox3{
+    color:red;
+}
+
+#navbox4{
+    color:red;
+}
+
+#navbarDropdown{
+color:red;
+}
+
+.c1{
+    font-size:125px;
+    font-family: 'Anton', sans-serif;
+    padding-right: 120px;
+    
+}
+
+.red-pennance{
+    color:crimson;
+}
+
+.Gamer-Summary{
+    text-align: center;
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+#navbar{
+    background-color: grey;
+    border-width: thick;
+    border-style: solid;
+    border-color: darkred;
+}
+
+#FGSV{
+    background-color: azure;
+    
+}
+
+#first-preson{
+    text-align: ;
+    color: darkred;
+    float:left;
+    margin-top: 20px;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding:15px;
+    background-color: dimgrey;
+    border-style:solid ;
+    
+    
+}
+
+#box1{
+    text-align:center;
+    background-color: white
+}
+
+#HH{
+    padding-right: 80
+}
+
+#footer{
+    background-color: dimgrey;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+#form{
+align-content: center;
+margin: 5%
+}
+
+#footer-col-1{
+    padding: 20px
+}
+
+#footer-col-2{
+    padding: 20px
+}
+
+#greet-tag-1{
+    background-color: black;
+    color:red;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    margin: 20px;
+    padding: 20px
+}
+
+#hr{
+    color: black
+}
+
+#info-tag-1{
+    background-color: black;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#info-tag-2{
+    color:red;
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+}
+
+#gamer-box{
+    background-color: gray;
+    padding: 20px;
+    color:white;
+    margin-top: 20px;
+}
+
+#gamers{
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    color:black;
+}
+
+#videos{
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    color:black;
+}
+
+#merch{
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    color:black;
+}
+
+#about{
+    background-color: black;
+    font-family: 'Russo One', sans-serif;
+    font-size: 40px;
+    margin-top:20px;
+    margin-left: 40px ;
+    margin-right:40px ;
+    padding:20px;
+    color: red;
+    border-style: groove;
+    border-color: darkred;
+    
+}
+
+#Cataract{
+    
+}
+
+#merch-card{
+    margin:5% auto;
+    padding:200px auto;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+}
+
+.reserved{
+    font-family: 'Orbitron', sans-serif;
+    color:red;
+}
+
+#order{
+    color:blue;
+    border-style:solid;
+    border-color: blue
+}
+
+#ut-order{
+   background-color: red;
+   cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+    color: darkre}
+
+#subscription{
+    font-size: 12px
+}
+
+#greet-tag-2{
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 40px;
+    margin-top: 40px;
+    color: red;
+    background-color: dimgrey;
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+    border-style:solid;
+    border-color: red;
+    border-width: thick;
+    
+}
+
+#bars{
+
+}
+
+#professional{
+    font-family: 'Orbitron', sans-serif;
+    text-align: left;
+    font-size: 45px
+}
+
+#profession{
+font-family: 'Staatliches', cursive;  
+}
+
+.card-title{
+ font-family: 'Orbitron', sans-serif;   
+}
+
+.card-text{
+font-family: sans-serif;  
+}
+
+#links{
+    color:crimson
+}
+
+#links-2{
+    color: maroon;
+    text-align: right;
+}
+
+#blog-outline{
+   text-align:left;
+    color: darkred;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding:20px;
+    background-color: dimgrey;
+    border-style:solid ; 
+}
+
+#title{
+  text-align: center;
+  font-size: 39px;
+  font-family: 'Russo One', sans-serif;
+}
+
+#author{
+   font-size: 20px;
+    font-family: 'Cinzel', serif;
+}
+
+#blog{
+   text-align: center;
+   font-family: 'Staatliches', cursive; 
+}
+
+#date{
+ font-family: 'Anton', sans-serif;   
+}
+
+#dream{
+    color: white;
+    font-size: 30px;
+    background-color:lawngreen;
+    padding: 15px;
+    border-style:solid ;
+    border-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    
+    
+}
+
+#beast{
+    color: deeppink;
+    font-size: 30px;
+    background-color:white;
+    padding: 15px;
+    border-style:solid ;
+    border-color: hotpink;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+     text-align: center;
+    font-family: 'Komika Axis', sans-serif;
+    
+}
+
+#mark{
+    color: hotpink;
+    font-size: 30px;
+    background-color:black;
+    padding: 15px;
+    border-style:solid ;
+    border-color: pink;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+     text-align: center;
+    
+    
+}
+
+#jack{
+    color: blue;
+    font-size: 30px;
+    background-color:forestgreen;
+    padding: 15px;
+    border-style:solid ;
+    border-color: darkblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    
+    
+}
+
+#pewds{
+    color: black;
+    font-size: 30px;
+    background-color:dimgrey;
+    padding: 15px;
+    border-style:solid ;
+    border-color: darkred;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    
+    
+}
+
+.fname{
+  font-family: 'Orbitron', sans-serif;  
+}
+
+#contact-info{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    font-size: 30px
+}
+
+.reserved{
+  font-family: 'Orbitron', sans-serif;  
+}
+
+#err{
+    text-align:center ;
+    color: darkred;
+    float: center;
+    margin-top: 7%;
+    margin-bottom: 20%;
+    margin-left:  30%;
+    margin-right: 30%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: dimgrey;
+    border-style:solid ;
+}
+
+a:hover{
+    color: maroon
+}
+
+.hyper{
+    color: red
+}
+
+.img-2{
+    
+}

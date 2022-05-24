@@ -1,0 +1,300 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Smooch+Sans:wght@200&family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+/*
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Smooch Sans', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Mukta', sans-serif;
+*/
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: dimgray !important;
+}
+
+h3, p{
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+#site-intro{
+    font-size: 25px;
+    text-align: left;
+    background-image: url(images/car%20drifting.jpg);
+    background-position: 30%;
+    padding: 5px;
+    text-shadow: 0px 0px 12px white;
+}
+
+hr{
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+#slogan{
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-top: 10px;
+    border-bottom: solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+nav{
+    position: fixed;
+}
+
+.nav-item{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.navbar{
+    font-family: 'Barlow Condensed', sans-serif !important; 
+}
+
+#drift{
+    border: white 3px solid;
+}
+
+.blog-content {
+    width: 100%;
+    padding: 15px;
+}
+
+h3{
+    text-align: center;
+}
+
+label{
+    color: white;
+}
+
+#email-list, #site-intro{
+    padding: 15px;
+    margin-top: 15px
+}
+
+.social-icon{
+    padding: 5px;
+    color: white;
+    margin: 5px auto;
+    width: 100%
+}
+
+h4{
+    color: white;
+    text-align: center;
+}
+
+.item-desc{
+    font-size: 20px;
+}
+
+.email-form{
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+#News, #Deals, #price-drops{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+#tools{
+    width: 100%;
+}
+
+.shop-btn{
+    width: 49%;
+    
+}
+
+span{
+    color: white;
+}
+
+#footer-logo{
+    margin-left: 5px;
+}
+#footer{
+    margin: 0px !important;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+#button-holder {
+  float: right;
+    margin-right: 20px;
+}
+    
+.footer-btn {
+    margin: 0 10px;
+    
+}
+
+#card{
+    margin-bottom: 15px;
+}
+
+h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.about-us-content, .about-us-name{
+    padding: 10px;
+}
+
+.about-us-content{
+    margin-bottom: 50px;
+}
+
+#sign-up-form{
+     box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+font-family: 'Barlow Condensed', sans-serif !important;
+}
+
+.signupFrm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+    font-family: 'Barlow Condensed', sans-serif !important;
+}
+
+.form {
+  background-color: white;
+  width: 400px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+
+.title {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.inputContainer {
+  position: relative;
+  height: 45px;
+  width: 90%;
+  margin-bottom: 17px;
+}
+
+.input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #DADCE0;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 0 20px;
+  outline: none;
+  background: none;
+  z-index: 1;
+}
+
+/* Hide the placeholder texts (a) */
+
+::placeholder {
+  color: transparent;
+}
+
+.label {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 0 4px;
+  background-color: white;
+  color: #DADCE0;
+  font-size: 16px;
+  transition: 0.5s;
+  z-index: 0;
+}
+
+.submitBtn {
+  display: block;
+  margin-left: auto;
+  padding: 15px 30px;
+  border: none;
+  background-color: mediumblue;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.submitBtn:hover {
+  background-color: mediumblue;
+  transform: translateY(-2px);
+}
+
+.input:focus + .label {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+  color: mediumblue;
+}
+
+.input:focus {
+  border: 2px solid mediumblue;
+}
+
+.input:not(:placeholder-shown)+ .label {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#sign-up-btn{
+    margin-left: 225px;
+}
+
+#error{
+    border: 5px solid blue;
+    background-color: white;
+    padding: 50px;
+    margin: 50px;
+    text-align: center;
+}
+
+#system-failure{
+    margin-top: 50px;
+}
+
+#sign-up-div{
+    background-image: url(images/car-sign-up.jpg);
+    background-size: 100%;
+    
+}
+
+i{
+    font-family: 'Barlow Condensed', sans-serif; 
+}
+

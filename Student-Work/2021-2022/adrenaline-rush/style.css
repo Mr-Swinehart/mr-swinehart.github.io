@@ -1,0 +1,624 @@
+ @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css")
+
+
+.fa-twitter {
+
+}
+
+#box1 {
+    background-color: green;
+
+}
+
+#box2 {
+    background-color: red;
+
+}
+
+#box3 {
+    background-color: yellow;
+
+}
+
+#box4 {
+    background-color: royalblue;
+
+}
+#test-button {
+    font-family:'Alfa Slab One';
+    font-size:20px;
+    color:floralwhite;
+    background-color:rosybrown;
+}
+#you-button {
+ font-family: 'Alfa Slab One';
+    font-size:20px;
+    color:floralwhite;
+    background-color:rosybrown;
+}
+
+#test-color {
+    font-family:'Alfa Slab One';
+    font-size:20px;
+    color:floralwhite;
+    background-color:rosybrown;
+}
+
+
+#navbar-logo {
+    width: 20%;
+    display:block;
+    margin: 0px auto;
+
+}
+#navbarDropdown {
+    font-family:'Alfa Slab One';
+    color:rosybrown;
+}
+
+  
+
+#navbarSupportedContent  {
+    font-family:'Alfa Slab One';
+    color:rosybrown;
+}
+
+#navcolor{
+    font-family:'Alfa Slab One';
+    color:rosybrown;
+}
+
+
+
+#ncolor {
+    font-family:'Alfa Slab One';
+    color:rosybrown;
+}
+
+#navcolorn {
+    font-family:'Alfa Slab One';
+    color:rosybrown;
+}
+
+#navmenu {
+    font-family:'Alfa Slab One';
+    color:rosybrown;
+}
+
+#shop {
+    font-family:'Alfa Slab One';
+    color:rosybrown;
+}
+
+
+#blog {
+    font-family:'Alfa Slab One';
+    color:rosybrown;
+}
+
+
+#searchb {
+    font-family:'Alfa Slab One';
+    color:rosybrown;
+}
+
+#top10 {
+    font-family:'Alfa Slab One';
+    color:black;
+    text-align:left;
+}
+
+body{
+    background-color:rosybrown!important;
+}
+
+#king {
+    font-family:'Alfa Slab One';
+    color:rosybrown;
+    padding-bottom:50px;
+}
+
+#tower {
+    font-family:'Alfa Slab One';
+    color:rosybrown;
+    padding-bottom:50px;
+}
+
+
+#twister {
+     font-family:'Alfa Slab One';
+    color:rosybrown;
+    padding-bottom:50px;
+}
+
+#beauty{
+    text-align:center;
+    padding-top:50px;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+}
+
+#slogan {     
+    text-align:center;
+   font-family: 'Alfa Slab One';
+    color:rosybrown;
+    background-color: whitesmoke;
+    
+    
+}
+
+
+#homepic {
+   width: 100%;
+    margin: 20px auto;
+    display: block;
+
+}
+
+
+
+#dayoff {
+   text-align:center;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+ 
+}
+
+#me {
+    text-align: center;
+    font-family:'Alfa Slab One';
+    color:rosybrown;
+    background-color:whitesmoke;
+}
+
+  
+
+#para {
+    text-align:center;
+    font-family:'Alfa Slab One';
+    font-size:18px;
+    color:whitesmoke;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+#rpic {
+    width:50%;
+    margin: 20px auto;
+    display:block
+}
+
+#smallactivity {
+    font-size: 50px;
+    text-align: center;
+    padding-left:750px;
+}
+
+#however {
+    font-size:35px;
+    text-align: center;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+   
+}
+
+#para2 {
+    text-align: justify;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+    padding-left:50px;
+
+}
+
+#fanfav {
+    font-size:35px;
+    text-align: center;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+    padding-left:50px;
+}
+
+#list {
+    font-size:25px;
+      text-align:center;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+    padding-left:50px;
+}
+
+
+
+#pic3 {
+ 
+width: 100%;
+    margin: 20px auto;
+    display: block;
+    padding-left:50px;
+    padding-right:50px;
+
+}
+
+#rpic3 {
+  
+     width:50%;
+    margin: 20px auto;
+    display: block;
+}
+
+#allrights {
+    margin-top:20px;
+    font-size:20px;
+    text-align:center;
+    font-family:'Alfa Slab One';
+    color:rosybrown;
+    background-color:whitesmoke;
+}
+
+#parks{
+     text-align:center;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+    border-bottom:50px solid whitesmoke;
+}
+
+#universal {
+     width:80%;
+    margin: 20px auto;
+    display: block; 
+}
+
+
+#four {
+   text-align:center;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+    font-size:35px;
+    border-bottom:10px solid whitesmoke; 
+}
+
+#fourparks {
+    text-align:center;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+    font-size:35px;
+
+}
+
+#rushmore {
+    width:50%;
+    margin: 25px auto;
+    display: block;  
+}
+
+#speed {
+    width:50%;
+    margin: 20px auto;
+    display: block;  
+}
+
+
+#fear {
+    width:50%;
+    margin: 20px auto;
+    display: block;  
+}
+
+#winded {
+     width:50%;
+    margin: 20px auto;
+    display: block; 
+}
+
+#rides {
+    text-align:center;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+    border-bottom:50px solid whitesmoke;
+}
+
+#student {
+     width:50%;
+    margin: 20px auto;
+    display: block;
+}
+
+
+#rideshomepic {
+       width:50%;
+    margin: 20px auto;
+    display: block;     
+}
+
+
+#more {
+    text-align: justify;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+    padding-left:50px;
+}
+
+#moreone {
+     font-size:35px;
+    text-align: center;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+}
+
+#fourtwo {
+    text-align:center;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+    font-size:30px;
+    border-bottom:10px solid whitesmoke; 
+}
+
+#fourrides {
+     text-align:center;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+    font-size:30px;
+    border-bottom:10px solid whitesmoke; 
+}
+
+
+#ridepara {
+    font-size:20px;
+    font-family:'Alfa Slab One';
+    color:whitesmoke; 
+    text-align:center;
+}
+
+#rideparatwo {
+    font-size:20px;
+    font-family:'Alfa Slab One';
+    color:whitesmoke; 
+    text-align:center;
+}
+
+#ridespictwo {
+    width:50%;
+    margin: 20px auto;
+    display: block;  
+}
+
+#rideparathree{
+    font-size:20px;
+    font-family:'Alfa Slab One';
+    color:whitesmoke; 
+    text-align:center;
+}
+
+
+#ridespicthree {
+    width:50%;
+    margin: 20px auto;
+    display: block;  
+}
+
+
+
+
+
+
+
+#locations {
+    padding-top:50px;
+    padding-bottom:25px;
+    text-align:center;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+    font-size:30px;
+}
+
+
+
+#phone {
+    font-size:50px;
+    padding-bottom: 80px;
+    padding-left:50px;
+   
+}
+
+
+#phonetwo {
+    font-size:50px;
+   
+}
+
+
+#shoptwo {
+    padding-top:50px;
+    text-align:center;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+    font-size:30px;
+}
+
+.shirtfive{
+ padding-top:50px;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+    font-size:30px;
+}
+
+.shirtsix {
+   font-family:'Alfa Slab One';
+    color:whitesmoke;
+    font-size:20px; 
+}
+
+#shirtseven {
+    background-color:whitesmoke;
+    font-family:'Alfa Slab One';
+    color:rosybrown;
+    font-size:20px; 
+}
+
+.shirtten {
+    padding-top:50px;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+    font-size:30px;
+}
+
+
+.shirteleven {
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+    font-size:20px; 
+}
+
+#shirttwelve {
+    background-color:whitesmoke;
+    font-family:'Alfa Slab One';
+    color:rosybrown;
+    font-size:20px; 
+}
+
+#shirtspace {
+    padding-bottom:20px;
+}
+
+
+#mepic {
+    width:30%;
+    margin: 20px auto;
+    display: block;
+}
+
+.contactinfo {
+     text-align:center;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+    font-size:20px;
+    
+    
+}
+#socials {
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+    text-align:center; 
+}
+
+
+
+.social-holder p, .social-holder .bi {
+    font-size: 25px;
+    font-family:'Alfa Slab One';
+    color: whitesmoke;
+    
+}
+
+.podcast {
+    padding-top:50px;
+    font-family:'Alfa Slab One';
+   font-size: 25px;
+    color: whitesmoke; 
+}
+
+#description {
+    font-size:20px;
+}
+
+#date {
+    font-size:20px;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+    text-align:center; 
+}
+#ourblog {
+    font-size:20px;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+    text-align:center; 
+}
+
+#mainblog {
+    font-size:15px;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+    text-align:center;
+}
+
+#bluebottle {
+    padding-top:100px;
+}
+
+#bottletext {
+    padding-top:145px;
+}
+
+
+#taylor {
+    width:60%;
+    margin: 20px auto;
+    display:block;
+    padding-top: 20px;
+}
+
+#sloganone {
+    font-size:30px;
+    font-family:'Alfa Slab One';
+    color:whitesmoke;
+    text-align:center;
+}
+
+
+#submitform {
+    background-color:whitesmoke;
+    color:rosybrown;
+}
+
+
+.form-group {
+    padding-top:50px;
+}
+
+#spotspot {
+    color:whitesmoke
+}
+
+
+#colors {
+   color:whitesmoke;
+}
+
+#sloganone {
+    padding-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
